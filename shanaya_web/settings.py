@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-1psc#z^rs=(ap#-d8_=m==q5+vj1lkgdy-)2ch#s0wdb&g&j-2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-seemavij-shanaya-8ou8sihhwt7.ws.codeinstitute-ide.net']
 
@@ -182,4 +182,5 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+print(STRIPE_WH_SECRET)
 DEFAULT_FROM_EMAIL = 'shanaya_web@example.com'
