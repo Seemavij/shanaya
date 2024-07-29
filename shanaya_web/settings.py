@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'blog_posts',
+    'django_summernote',
+    
 
 
     # Other
