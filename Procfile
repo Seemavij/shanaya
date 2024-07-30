@@ -1,1 +1,1 @@
-web : gunicorn shanaya_web.wsgi:application
+web: gunicorn shanaya_web.wsgi:application
