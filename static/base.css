@@ -1,0 +1,454 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/homepage_background_cropped.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Rubik';
+    background-color: lightgrey;
+}
+/* spacing container */
+.header-container {
+    padding-top: 145px;
+}
+
+/* Main Nav */
+
+.rounded {
+    border-radius: 10px;
+}
+
+.mt-auto, .my-auto {
+    margin-top: 0!important;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+
+
+#topnav {
+    line-height: 1.5rem;
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* logo font */
+.logo-font {
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+.nav-font {
+    font-family: Rubik, sans-serif;
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+/* Home Page */
+
+.buy-and-donate{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+.about-us {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.about-us-width {
+    width: 100%;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+    border-radius: 15px;
+}
+
+/* Footer */
+
+.footer_links {
+    color: white;
+    padding-left: 10px;
+}
+
+.footer_links:hover {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+
+/* products page */
+
+.item-img-fluid{
+    width: 100%;
+    height: 28vw;
+    object-fit: contain;
+}
+
+/* Reviews page */
+
+.logo-font-review {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+.review-body {
+    border-radius: 15px;
+    border:solid 1px black; 
+}
+.write-review {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    color: #222;
+    text-transform: capitalize;
+
+}
+
+.write-review-link:hover {
+    background-color: black;
+    color: white;
+    border:solid, 1px, black;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.write-review-link {
+    background-color: white;
+    color: black;
+    border:solid 1px black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+/* buttons */
+.btn-black {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+
+.button {
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+    border-radius: 15px;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.bg-black {
+    background:#000 !important;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 15px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
+/* overlay  */
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
+/* toasts */ 
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+
+}
+
+toast-capper {
+    height: 2px
+}
+
+/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent; 
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+    right: 36px;
+}
+
+/* Convenience classes - colors copied from Bootstrap */
+.arrow-primary {
+    border-bottom-color: #007bff !important;
+}
+
+.arrow-secondary {
+    border-bottom-color: #6c757d !important;
+}
+
+.arrow-success {
+    border-bottom-color: #28a745 !important;
+}
+
+.arrow-danger {
+    border-bottom-color: #dc3545 !important;
+}
+
+.arrow-warning {
+    border-bottom-color: #ffc107 !important;
+}
+
+.arrow-info {
+    border-bottom-color: #17a2b8 !important;
+}
+
+.arrow-light {
+    border-bottom-color: #f8f9fa !important;
+}
+
+.arrow-dark {
+    border-bottom-color: #343a40 !important;
+}
+
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Mailchimp CSS */
+
+#mc_embed_signup {
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;  
+    width:600px;
+}
+
+.my-mailchimp {
+    display:flex;
+    justify-content: center;
+}
+
+.head-mailchimp {
+    background-color: white;
+}
+
+/* Allauth form formatting */
+
+
+.allauth-form-inner-content p {
+    margin-top: 1.5rem; /* mt-4 */
+    color: #6c757d; /* text-secondary */
+}
+
+.allauth-form-inner-content input {
+    border-color: #000;
+    border-radius: 15px;
+}
+
+.allauth-form-inner-content label:not([for='id_remember']) {
+    display: none;
+}
+
+.allauth-form-inner-content input::placeholder {
+    color: #aab7c4;
+}
+
+.allauth-form-inner-content button,
+.allauth-form-inner-content input[type='submit'] {
+	/* btn */
+	display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+    /* standard bootstrap btn transitions */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.allauth-form-inner-content button:hover,
+.allauth-form-inner-content input[type='submit']:hover {	
+	color: #fff;
+    background-color: #222;
+    border-color: #222;
+}
+
+.allauth-form-inner-content a {
+	color: #17a2b8; /* text-info */
+}
+
+.container-bottom {
+    padding-bottom: 196px;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+/* Adjust header container for screens over 408px */
+@media (min-width: 408px) {
+    .header-container {
+        padding-top: 100px;
+    }
+}
+
+/* Adjust header container for screes over 992px */
+@media (min-width: 992px) {
+    .header-container {
+        padding-top: 147px;
+    }
+}
+
+/* adjust mobile header on small mobile */
+
+@media (max-width:991px) {
+    body{
+        height:calc(100vh - 116px);
+    }
+    
+    .display-4.logo-font.text-white {
+        font-size: 2rem;
+    }
+
+    .nav-link{
+        padding: 0.15rem;   
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    .btn.btn-black.rounded-pill.rounded,
+    .btn.btn-black.rounded-pill.rounded {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-black.rounded-pill.rounded.btn-lg,
+    .btn.btn-black.rounded-pill.rounded.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+}
