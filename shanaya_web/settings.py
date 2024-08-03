@@ -30,7 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['shanaya.herokuapp.com','.codeinstitute-ide.net'
+ALLOWED_HOSTS = [
+    'shanaya.herokuapp.com',
+    '.codeinstitute-ide.net',
+    'shanaya-4953fd346fee.herokuapp.com',
 ]
 
 # Application definition
