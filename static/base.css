@@ -5,8 +5,9 @@ html {
     height: 100%;
 }
 
+  
 body {
-    background: url('/media/homepage_background_cropped.webp') no-repeat center center fixed;
+    background-image: url('/media/bag.png') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -64,13 +65,6 @@ body {
 }
 
 /* Home Page */
-
-.buy-and-donate{
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
-    color: black;
-    text-align: center;
-}
 
 
 .about-us {
