@@ -7,7 +7,7 @@ html {
 
   
 body {
-    background-image: url('/media/bag.png') no-repeat center center fixed;
+    background-image:url('/media/homepage_background_cropped.jpg'); no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -68,13 +68,18 @@ body {
 
 
 .about-us {
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        }
+        
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
 }
 
-.about-us-width {
-    width: 100%;
-}
 
 .shop-now-button {
     background: black;
