@@ -7,12 +7,12 @@ html {
 
   
 body {
-    background-image:url('/media/homepage_background_cropped.jpg'); no-repeat center center fixed;
+    background-image:url('/media/cover.png') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Rubik';
-    background-color: lightgrey;
+    background-color: rgb(222, 108, 15);
 }
 /* spacing container */
 .header-container {

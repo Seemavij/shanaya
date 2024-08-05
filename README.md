@@ -148,7 +148,302 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 
 
 
+* Database :
 
+. The database was designed for the items to be tracked all the way through to sale and then recorded onto the user profile once sold.
+. I originally made lots of models for the different items in the items app. They were all joined to the main items database by the primary key. The aim of this was to make it easier to put search options on the products page for different colours, sizes, age ranges of products etc. Unfortunately, I did not have time to implement all the search options I wanted to but I have left the different models in, in case of future development.
+
+. I also added an option to add books to the items database but I decided not to add books to the site at this time. I left the model fields there though in case they can be used in the future.
+
+. The items are connected to the user and shopping bag by primary key and are then stored on the user’s profile as past orders.
+
+* Security :
+
+. If statements were used to ensure that buttons that were only for the superuser were hidden from everyone else. The UserPassesTest Mixin was used to make sure the superuser is signed in to complete the blog. And to ensure that the create, edit and delete forms cannot be reached via the url.
+
+. Environment variables were stored in an env.py file for security purposes to ensure no secret keys, api keys or sensitive information were added to the repository. These variables were added to Heroku config vars within the project
+
+* Design :
+
+. Colour Scheme
+
+. I opted for a simple black white and grey colour scheme. I wanted the site to look clean and simple in its design
+
+* Typography :
+
+. I used Alfa slab One for the logo font and Rubi for the body of the site
+
+. I downloaded these from google fonts and imported them into the style sheet
+
+* Imagery :
+
+. The front page image was taken from shakutlam website which is the best Indian drresses store selection. The item pictures are either the ones used in in the google website or they came from Amazon.
+
+* Technologies :
+
+. HTML
+>The structure of the site was made using HTML
+
+. CSS
+>The website was styled using CSS in an external stylesheet
+
+. Python
+> Python was the main programming language used within the django app
+
+. Github
+>Source code was hosted in Github
+
+. Git
+>Git was used to write, commit and push code during development
+
+.Font Awesome
+>Various Font Awesome icons were used throughout the site
+
+.Balsamiq
+>Balsamiq wireframes were used to plan
+
+.javascript
+>Used throughout the site
+
+. GitHub Wiki TOC generator
+>I used this to enter my table of contents. -AWS Amazon
+
+> Used to store pictures -Stripe
+
+> I used stripe payment system
+
+* External Python Modules
+
+> asgiref==3.8.1
+> boto3==1.34.149
+> botocore==1.34.149
+> chardet==3.0.4
+> dj-database-url==0.5.0
+> Django==3.2.25
+> django-allauth==0.63.6
+> django-countries==7.2.1
+> django-crispy-forms==1.14.0
+> django-storages==1.14.4
+> django-summernote==0.8.20.0
+> gunicorn==20.1.0
+> idna==2.8
+> jmespath==1.0.1
+> oauthlib==3.2.2
+> pillow==10.4.0
+> psycopg2==2.9.9
+> python3-openid==3.2.0
+> pytz==2024.1
+> requests-oauthlib==2.0.0
+> s3transfer==0.10.2
+> sqlparse==0.5.1
+> stripe==10.4.0
+
+* Testing :
+* Functional Testing
+* Navigation Links
+. Testing was performed on on all navigation links throughout the site. I achieved this by clicking on each link to ensure it went to the correct place.
+
+. Shanaya => index.html
+
+. All Products
+. By Price => Arranges products by price
+. By Category => Arranges products by A-Z Category
+. All Products => Shows all products
+Women’s
+
+Bridal Dress,Sarees,Suits,gowns,Indo-western and All clothing
+
+All these filter women’s cloths by the desired clothing type
+
+Men’s
+
+clothes all filtered by the correct clothing types
+
+Sherwani and Men's Suit all filter by the correct types
+
+My Account
+
+My Profile => Profile page
+
+Log out (if logged in) => to log out page
+
+(if not logged in) Sign in => to sign in page
+
+(if not logged in) Register => to Registration page
+
+Products page
+Picture => Product detail page
+
+Sort Box => All items in the sort box were tested and sort items accordingly
+Men’s
+
+clothes all filtered by the correct clothing types
+
+Kids’ clothes and toys all filter by the correct types
+
+My Account
+
+My Profile => Profile page
+
+Log out (if logged in) => to log out page
+
+(if not logged in) Sign in => to sign in page
+
+(if not logged in) Register => to Registration page
+
+Products page
+Picture => Product detail page
+
+Sort Box => All items in the sort box were tested and sort items accordingly
+
+Product Details page
+Keep Shopping => goes back to the products page
+
+Add to bag => correctly adds the item to the user’s bag this shows a success toast with the bag contents and the bag total cost shows up under the shopping bag icon.
+
+The user can either click the cross on the toast to get rid of it or they can go to the checkout by clicking the go to secure checkout button. This works correctly
+
+I tested adding the same item twice to the shopping bag and an error message correctly appears advising the user they can’t do that.
+
+Bag Icon
+The shopping bag icon takes the user to the shopping bag.
+
+Shopping Bag
+The red remove button correctly deletes the item from the shopping bag and the correct toast appears to confirm this has been successful.
+
+The Keep Shopping button correctly takes the user back to the products page
+
+The Secure checkout button correctly takes the user to the checkout form.
+
+* Checkout :
+I checked the checkout form for positive and negative tests
+
+I left each box blank and the form flagged an error when these were not filled in correctly. The email box flagged an error when an incorrect
+Product Details page
+Keep Shopping => goes back to the products page
+
+Add to bag => correctly adds the item to the user’s bag this shows a success toast with the bag contents and the bag total cost shows up under the shopping bag icon.
+
+The user can either click the cross on the toast to get rid of it or they can go to the checkout by clicking the go to secure checkout button. This works correctly
+
+I tested adding the same item twice to the shopping bag and an error message correctly appears advising the user they can’t do that.
+
+* Bag Icon:
+The shopping bag icon takes the user to the shopping bag.
+
+* Shopping Bag :
+The red remove button correctly deletes the item from the shopping bag and the correct toast appears to confirm this has been successful.
+
+The Keep Shopping button correctly takes the user back to the products page
+
+The Secure checkout button correctly takes the user to the checkout form.
+
+Checkout
+I checked the checkout form for positive and negative tests
+
+I left each box blank and the form flagged an error when these were not filled in correctly. The email box flagged an error when an incorrect email address was input. I tried it with just letters and with only an @, and with only a .com. These all showed errors as expected.
+
+I tested The save delivery information button to the profile button both ticked and unticked and it correctly saved the forms information when the box was ticked. I then logged in again to check that the information was in the form the next time and it was.
+
+The adjust bag button correctly takes the user back to the bag.
+
+* Card Details :
+I used stripes test card number to use on the site. It showed an error when the card number was input incorrectly
+
+Order Confirmation
+The order confirmation button takes the user to a thank you page confirming their email address, address and order details. A success message also correctly appears supplying the order number and confirming the confirmation email is sent to the email address given.
+
+I checked the latest deals button takes the user back to the products page.
+
+Once the item has been bought, it correctly no longer appears on the products page to be bought again. As this is a second hand site there is only one of each item.
+
+Stripe
+I checked the stripe website to make sure that the payment had gone through correctly there and the webhooks had worked correctly and all was working well.
+
+Profile Page
+I checked that the order had correctly been added to the profile page
+
+I also updated the customer details which then changed on the checkout form the next time I bought something.
+
+* Footer
+
+* Blog
+. The blog button correctly takes the user to the blog list page, each blog post photo and title correctly take the user to the blog detail page for that post.
+
+. On the blog post, only the superuser can see the create blog post button. I tested this both logged out completely and logging in as a regular user. The same applies to the delete and edit buttons located in the blog detail.
+
+. I also used the URL to try and get to the create, edit and delete pages without the buttons and you could get there as the superuser but could not as either not logged in or logged in as a different user.
+
+. The charity website link takes you to the correct website and it opens in a new window as it should.
+
+. The create and edit forms both upload the information and pictures as expected. The edit form also contained all the previous information ready to edit as expected.
+
+. Unfortunately, an error occurred in the blog form. If a picture is not correctly uploaded it caused an error on the blog list page.
+. I have written about this in the bug section and it has now been fixed so it works correctly.
+
+* Reviews :
+. The reviews button correctly takes the user to the reviews page, the reviews are correctly ordered with the newest first. The write a review button takes you to the form to write your review. once completed the submit button correctly takes you back to the review page where the new review is visible.
+
+. If you are not logged in the reviews button correctly takes the user to the sign-in page
+
+* Subscribe :
+. The subscribe button correctly takes the user to the mailchimp subscription page. I tested this with an email that I had already used before and it would not accept it and told me to enter a different email address as it had already been used.
+
+. A new email address was successfully added.
+
+. It also correctly flagged an error when an incomplete email address was added.
+
+. All of the social media icons correctly take to you their respective social media pages which open in a new page as expected.
+
+. The Facebook icon correctly went to the Laneys Loft Facebook page.
+
+* Emails :
+. I was correctly able to set up a new user, receive an email to confirm the email address of the user, click the link to the site and confirm the email address. I then logged in with an incorrect name and email for the user and both flagged errors correctly by the system.
+
+. A confirmation email was correctly sent once an order was completed.
+
+* Accessibility :
+. I used the Wave Accessibilitytool to check for aid accessibility testing.
+
+. The page showed a couple of errors and they were for labels on the search box in the nav bar. I added aria labels for this but the errors stayed in the box despite disappearing on the page.
+
+. On other pages, it showed Alerts that show redundant links, on the blog picture and name.
+
+. I have chosen to leave these links as they are because I think they make navigation around the site better.
+
+* Validator Testing :
+. All pages were run through the w3 HTML validator. Initially, there were some errors, for example, there were some missing closing tags and a
+
+tag that was used incorrectly inside a .
+
+. All issues were fixed and all pages ran through the checker with no errors.
+
+* PP8 Validator :
+. The pep8 validator was not working at the time of checking this project. I checked in the terminal using linter and corrected all the items shown until it said no problems detected in the workspace. There were some long lines in the settings tab in Laneys Loft that I left because they were there already. I could not find a way of screenshotting a picture of this.
+
+* Javascript :
+. I didn't use any Javascript in this project over the js used in boutique ado so I have not tested for that.
+
+* Lighthouse Report :
+. The lighthouse report initially showed a low score on performance. I compressed my hero image which fixed the problem.
+
+* Responsiveness :
+. I checked the website for responsiveness on all devices from 320px and up. I checked on Chrome, Edge, Firefox and Opera browsers.
+
+. I did this by using developer tools and re-sizing the website to down to 320px.
+
+. As expected, there were no responsiveness issues.
+
+* Bugs :
+. Error when migration change in checkout model. File "/workspace/.pip-modules/lib/python3.8/site-packages/django/db/backends/dummy/base.py", line 20, in complain raise ImproperlyConfigured("settings.DATABASES is improperly configured. " django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+. I looked at the error and went to the database section in settings. I found a typo in the Databases and updated this to fix the problem
+. Error on the product form. If a picture is not input correctly, it causes an error on the blog list page. The only way to get back in is to go into the admin panel and delete the blog post.
+
+. after some investigation, I found that my placeholder image was not working because I had neglected to put the placeholder name in the model. Once I did this the bug was fixed.
+. Error the bag information shows when the blog is being updated. I have decided to leave this bug. I have run out of time and realistically the site owner probably won’t have anything in her bag anyway.
+
+. An error occurred when I added the UserPassesTest mixin to the blog create, edit and delete views. This caused an error page when I logged into them. I fixed this by looking at the documentation and adding a def text_func function that checked the user had the correct email address.
 
 
 * Deployment 
