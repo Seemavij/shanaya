@@ -2,7 +2,68 @@
 
 You can reach the live site here.
 
-Table of Contents:
+* Table of Contents:
+. Business-Model
+. User-Experience-Design
+. Site Goals
+. Agile Planning
+. Scope
+. Structure
+. Laneys Loft Features
+.Home Page
+. Footer
+. Browse Items
+. Item Detail
+. Sign in, log in, log out
+. Shopping Bag
+. Checkout Page
+. Order Confirmation
+. Profile Page
+. Blog
+. Reviews
+. Subscribe
+. Facebook Page
+. Keywords
+. Features left to implement
+. Wireframes
+. Database
+. Security
+. Design
+. Colour Scheme
+. Typography
+. Imagery
+. Technologies
+. External Python Modules
+. Testing
+. Functional Testing
+. Navigation Links
+. Products page
+. Product Details page
+. Bag Icon
+. Shopping Bag
+. Checkout
+. Card Details
+. Order Confirmation
+. Stripe
+. Profile Page
+. Footer
+. Blog
+. Reviews
+. Subscribe
+. Emails
+. Accessibility
+. Validator Testing
+. PP8 Validator
+. Javascript
+. Lighthouse Report
+. Responsiveness
+. Bugs
+. Deployment
+. References
+. Acknowledgements
+
+
+Table of contents generated with markdown-toc
 
 * Business Model :
 
@@ -185,27 +246,35 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 >The structure of the site was made using HTML
 
 . CSS
+
 >The website was styled using CSS in an external stylesheet
 
 . Python
+
 > Python was the main programming language used within the django app
 
 . Github
+
 >Source code was hosted in Github
 
 . Git
+
 >Git was used to write, commit and push code during development
 
 .Font Awesome
+
 >Various Font Awesome icons were used throughout the site
 
 .Balsamiq
+
 >Balsamiq wireframes were used to plan
 
 .javascript
+
 >Used throughout the site
 
 . GitHub Wiki TOC generator
+
 >I used this to enter my table of contents. -AWS Amazon
 
 > Used to store pictures -Stripe
@@ -215,32 +284,57 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 * External Python Modules
 
 > asgiref==3.8.1
+
 > boto3==1.34.149
+
 > botocore==1.34.149
+
 > chardet==3.0.4
+
 > dj-database-url==0.5.0
+
 > Django==3.2.25
+
 > django-allauth==0.63.6
+
 > django-countries==7.2.1
+
 > django-crispy-forms==1.14.0
+
 > django-storages==1.14.4
+
 > django-summernote==0.8.20.0
+
 > gunicorn==20.1.0
+
 > idna==2.8
+
 > jmespath==1.0.1
+
 > oauthlib==3.2.2
+
 > pillow==10.4.0
+
 > psycopg2==2.9.9
+
 > python3-openid==3.2.0
+
 > pytz==2024.1
+
 > requests-oauthlib==2.0.0
+
 > s3transfer==0.10.2
+
 > sqlparse==0.5.1
+
 > stripe==10.4.0
 
 * Testing :
+
 * Functional Testing
+
 * Navigation Links
+
 . Testing was performed on on all navigation links throughout the site. I achieved this by clicking on each link to ensure it went to the correct place.
 
 . Shanaya => index.html
@@ -272,6 +366,7 @@ Log out (if logged in) => to log out page
 (if not logged in) Register => to Registration page
 
 Products page
+
 Picture => Product detail page
 
 Sort Box => All items in the sort box were tested and sort items accordingly
@@ -292,11 +387,13 @@ Log out (if logged in) => to log out page
 (if not logged in) Register => to Registration page
 
 Products page
+
 Picture => Product detail page
 
 Sort Box => All items in the sort box were tested and sort items accordingly
 
 Product Details page
+
 Keep Shopping => goes back to the products page
 
 Add to bag => correctly adds the item to the user’s bag this shows a success toast with the bag contents and the bag total cost shows up under the shopping bag icon.
@@ -316,10 +413,13 @@ The Keep Shopping button correctly takes the user back to the products page
 The Secure checkout button correctly takes the user to the checkout form.
 
 * Checkout :
+
 I checked the checkout form for positive and negative tests
 
 I left each box blank and the form flagged an error when these were not filled in correctly. The email box flagged an error when an incorrect
+
 Product Details page
+
 Keep Shopping => goes back to the products page
 
 Add to bag => correctly adds the item to the user’s bag this shows a success toast with the bag contents and the bag total cost shows up under the shopping bag icon.
@@ -368,6 +468,7 @@ I also updated the customer details which then changed on the checkout form the 
 * Footer
 
 * Blog
+
 . The blog button correctly takes the user to the blog list page, each blog post photo and title correctly take the user to the blog detail page for that post.
 
 . On the blog post, only the superuser can see the create blog post button. I tested this both logged out completely and logging in as a regular user. The same applies to the delete and edit buttons located in the blog detail.
@@ -379,14 +480,17 @@ I also updated the customer details which then changed on the checkout form the 
 . The create and edit forms both upload the information and pictures as expected. The edit form also contained all the previous information ready to edit as expected.
 
 . Unfortunately, an error occurred in the blog form. If a picture is not correctly uploaded it caused an error on the blog list page.
+
 . I have written about this in the bug section and it has now been fixed so it works correctly.
 
 * Reviews :
+
 . The reviews button correctly takes the user to the reviews page, the reviews are correctly ordered with the newest first. The write a review button takes you to the form to write your review. once completed the submit button correctly takes you back to the review page where the new review is visible.
 
 . If you are not logged in the reviews button correctly takes the user to the sign-in page
 
 * Subscribe :
+
 . The subscribe button correctly takes the user to the mailchimp subscription page. I tested this with an email that I had already used before and it would not accept it and told me to enter a different email address as it had already been used.
 
 . A new email address was successfully added.
@@ -398,11 +502,13 @@ I also updated the customer details which then changed on the checkout form the 
 . The Facebook icon correctly went to the Laneys Loft Facebook page.
 
 * Emails :
+
 . I was correctly able to set up a new user, receive an email to confirm the email address of the user, click the link to the site and confirm the email address. I then logged in with an incorrect name and email for the user and both flagged errors correctly by the system.
 
 . A confirmation email was correctly sent once an order was completed.
 
 * Accessibility :
+
 . I used the Wave Accessibilitytool to check for aid accessibility testing.
 
 . The page showed a couple of errors and they were for labels on the search box in the nav bar. I added aria labels for this but the errors stayed in the box despite disappearing on the page.
@@ -412,6 +518,7 @@ I also updated the customer details which then changed on the checkout form the 
 . I have chosen to leave these links as they are because I think they make navigation around the site better.
 
 * Validator Testing :
+
 . All pages were run through the w3 HTML validator. Initially, there were some errors, for example, there were some missing closing tags and a
 
 tag that was used incorrectly inside a .
@@ -419,15 +526,19 @@ tag that was used incorrectly inside a .
 . All issues were fixed and all pages ran through the checker with no errors.
 
 * PP8 Validator :
+
 . The pep8 validator was not working at the time of checking this project. I checked in the terminal using linter and corrected all the items shown until it said no problems detected in the workspace. There were some long lines in the settings tab in Laneys Loft that I left because they were there already. I could not find a way of screenshotting a picture of this.
 
 * Javascript :
+
 . I didn't use any Javascript in this project over the js used in boutique ado so I have not tested for that.
 
 * Lighthouse Report :
+
 . The lighthouse report initially showed a low score on performance. I compressed my hero image which fixed the problem.
 
 * Responsiveness :
+
 . I checked the website for responsiveness on all devices from 320px and up. I checked on Chrome, Edge, Firefox and Opera browsers.
 
 . I did this by using developer tools and re-sizing the website to down to 320px.
@@ -435,55 +546,94 @@ tag that was used incorrectly inside a .
 . As expected, there were no responsiveness issues.
 
 * Bugs :
+
 . Error when migration change in checkout model. File "/workspace/.pip-modules/lib/python3.8/site-packages/django/db/backends/dummy/base.py", line 20, in complain raise ImproperlyConfigured("settings.DATABASES is improperly configured. " django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
 
 . I looked at the error and went to the database section in settings. I found a typo in the Databases and updated this to fix the problem
+
 . Error on the product form. If a picture is not input correctly, it causes an error on the blog list page. The only way to get back in is to go into the admin panel and delete the blog post.
 
-. after some investigation, I found that my placeholder image was not working because I had neglected to put the placeholder name in the model. Once I did this the bug was fixed.
+. After some investigation, I found that my placeholder image was not working because I had neglected to put the placeholder name in the model. Once I did this the bug was fixed.
+
 . Error the bag information shows when the blog is being updated. I have decided to leave this bug. I have run out of time and realistically the site owner probably won’t have anything in her bag anyway.
 
 . An error occurred when I added the UserPassesTest mixin to the blog create, edit and delete views. This caused an error page when I logged into them. I fixed this by looking at the documentation and adding a def text_func function that checked the user had the correct email address.
 
 
 * Deployment 
+
 .To deploy my site to Heroku I followed the following steps
 
 . Navigate to heroku and create/log into account
+
 . Click the new button in the top right corner
+
 . Select create new app
+
 . Enter app name (kids-bored)
+
 . Select region and click create app (europe)
+
 . Click the resources tab and search for Heroku Postgres
+
 . Select hobby dev and continue
+
 . Go to the settings tab and then click reveal config vars
+
 . Make sure the correct config bars are added
+
 . AWS_ACCESS_KEY_ID (for access to AWS)
+
 . AWS_SECRET_ACCESS_KEY (for access to AWS)
+
 . SECRET_KEY: (Your secret key)
+
 . DATABASE_URL: (This should already exist with add on of postgres)
+
 . EMAIL_HOST_USER: (email address)
+
 . EMAIL_HOST_PASS: (email app password)
+
 . STRIPE_PUBLIC_KEY (Stripes public key)
+
 . STRIPE_SECRET_KEY (Stripes secret key)
+
 . STRIPE_WH_SECRET (Stripes Web Hook secret key)
+
 . USE_AWS (set to True to use AWS)
+
 . Click the deploy tab
+
 . Scroll down to Connect to GitHub and sign in / authorize when prompted
+
 . In the search box, find the repository you want to deploy and click connect
-Scroll down to Manual deploy and choose the main branch
+
+. Scroll down to Manual deploy and choose the main branch
+
+
+
+
+
+
 . Click Deploy
+
 . The app should now be deployed
 
 * References
 . I used the django documentation
+
 . I used the bootstrap documentation
+
 . I used slack overflow
+
 . I used CI slack community
+
 . I followed the Boutique Ado walkthrough and used it as a base for the site.
 
 * Acknowledgements
 
-. I want to thank:
+. I want to thank
+
 . My mentor & Tutor for all her guidance
+
 . The wonderful slack community
