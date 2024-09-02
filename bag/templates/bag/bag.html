@@ -54,7 +54,7 @@
                         </div>
                         <div class="col-12 col-sm-6">
                             <!-- delete button -->
-                            {% include "bag/delete_item.html" %}
+                            {% include "bag/delete_product.html" %}
                         </div>
                     </div>
                     <div class="row"><div class="col"><hr></div></div>
@@ -89,7 +89,7 @@
                                         <p class="my-0">{{ item.quantity }}</p>
                                     </td>
                                     <td class="py-3">
-                                        {% include "bag/delete_item.html" %}
+                                        {% include "bag/delete_product.html" %}
                                     </td>
                                 </tr>
                             {% endfor %}
@@ -108,7 +108,7 @@
                 {% else %}
                 <!-- if nothing is is in the bag -->
                     <p class="lead mb-5">Your bag is empty.</p>
-                    <a href="{% url 'items' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
                         </span>

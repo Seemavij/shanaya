@@ -12,7 +12,8 @@ def view_bag(request):
 def add_to_bag(request, bag_item_id):
     """ Add  item to bag """
 
-    item = get_object_or_404(Item, pk=bag_item_id)
+    # item = get_object_or_404(product, pk=bag_item_id)
+    item = get_object_or_404(Product, pk=bag_item_id)
     quantity = 1
 
     redirect_url = request.POST.get('redirect_url')
