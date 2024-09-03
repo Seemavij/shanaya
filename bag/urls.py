@@ -1,4 +1,3 @@
-from django.contrib import admin
 from django.urls import path
 from . import views
 
@@ -9,3 +8,10 @@ urlpatterns = [
         'remove/<bag_item_id>/', views.remove_from_bag, name='remove_from_bag'
         ),
 ]
+
+
+
+
+
+
+

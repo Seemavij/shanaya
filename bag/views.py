@@ -32,10 +32,15 @@ def add_to_bag(request, bag_item_id):
 def remove_from_bag(request, bag_item_id):
     """ Remove item from bag """
 
-    item = get_object_or_404(Item, pk=bag_item_id)
+    item = get_object_or_404(Product, pk=bag_item_id)  # Corrected model reference to Product
     bag = request.session.get('bag', {})
-    bag.pop(bag_item_id)
+    
+    if bag_item_id in bag:
+        bag.pop(bag_item_id)
+        messages.success(request, f"{item.name} has been successfully removed")
+    else:
+        messages.error(request, "Item was not found in the bag.")
 
     request.session['bag'] = bag
-    messages.success(request, f"{item.name} has been successfully removed")
     return redirect(reverse('view_bag'))
+    
