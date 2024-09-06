@@ -13,9 +13,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #8d0b0bd1;
     font-family: 'Rubik';
-    background-color: rgb(222, 108, 15);
+    background-color: rgba(209, 106, 21, 0.936);
 }
 /* spacing container */
 .header-container {
@@ -108,13 +108,12 @@ body {
     text-decoration: none;
     
 }
-/* Contact_us Page */
+/* Contact-us Page */
 
-.contact-map {
-    width: 100%;
-    height: 87%;
-    outline: 2px solid var(rgb(165, 7, 33));
-    border-radius: 5px;
+.contact-us {
+    width: 50%;
+    height: 60%;
+    outline: 2px solid var(rgb(203, 16, 47));
     background: url('/media/contact-us.png') no-repeat center center;
 }
 /* products page */
@@ -185,8 +184,8 @@ body {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
-    color: white !important;
+    background: rgba(218, 6, 6, 0.884);
+    color: rgba(213, 109, 23, 0.855) !important;
 }
 
 .button {
@@ -318,7 +317,7 @@ toast-capper {
 /* Mailchimp CSS */
 
 #mc_embed_signup {
-    background:#fff; 
+    background:#dfc00f; 
     clear:left; 
     font:14px Helvetica,Arial,sans-serif;  
     width:600px;
@@ -330,7 +329,7 @@ toast-capper {
 }
 
 .head-mailchimp {
-    background-color: white;
+    background-color: rgb(19, 195, 125);
 }
 
 /* Allauth form formatting */
@@ -359,7 +358,7 @@ toast-capper {
 	/* btn */
 	display: inline-block;
     font-weight: 400;
-    color: #fff;
+    color: #18c4b0;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
