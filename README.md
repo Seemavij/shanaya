@@ -3,30 +3,48 @@
 You can reach the live site here.
 
 * Table of Contents:
+
 . Business-Model
+
 ![alt image](media/about.us.png)
 
 . User-Experience-Design
 
 . Site Goals
+
 . Agile Planning
+
 . Scope
+
 . Structure
-. Shanaya Features
+
+. Shanaya Features:
+
 .Home Page
+
+![alt image](media/homepage.png)
+
 . Footer
 
+![alt image](media/footer.png)
+
 . Browse Items
+
 ![alt image](media/browser.png)
+
 . Item Detail
+
 ![alt image](media/item_detail.png)
+
 . Sign in, log in, log out
+
+![alt image](media/sign_out.png)
 
 . Shopping Bag
 ![alt image](media/order_summary.png)
 
 . Checkout Page
-![alt image](media/checkout_views.py.png)
+
 ![alt image](media/checkout_models.py.png)
 
 . Order Confirmation
@@ -35,11 +53,8 @@ You can reach the live site here.
 . Profile Page
 
 . Blog
-![alt image](media/blog_admin.py.png)
 
 ![alt image](media/blog_forms.py.png)
-
-![alt image](media/blog_models.py.png)
 
 ![alt image](media/blog_views.py.png)
 . Reviews
@@ -80,12 +95,23 @@ You can reach the live site here.
 . Footer
 
 . Blog
+
 . Reviews
+
 . Subscribe
+
 . Emails
+
 . Accessibility
+
 . Validator Testing
+
 . PP8 Validator
+
+![alt image](media/checkout_views.py.png)
+![alt image](media/blog_models.py.png)
+![alt image](media/blog_admin.py.png)
+
 . Javascript
 . Lighthouse Report
 . Responsiveness
