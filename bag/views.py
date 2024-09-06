@@ -18,7 +18,7 @@ def add_to_bag(request, bag_item_id):
 
     redirect_url = request.POST.get('redirect_url')
     bag = request.session.get('bag', {})
-
+   
     if bag_item_id in list(bag.keys()):
         messages.error(request, f"The requested quantity is not available")
     else:

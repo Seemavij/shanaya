@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     'blog_posts',
     'reviews',
     'django_summernote',
+    'contact_us',
     
 
 

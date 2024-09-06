@@ -4,23 +4,46 @@ You can reach the live site here.
 
 * Table of Contents:
 . Business-Model
+![alt image](media/about.us.png)
+
 . User-Experience-Design
+
 . Site Goals
 . Agile Planning
 . Scope
 . Structure
-. Laneys Loft Features
+. Shanaya Features
 .Home Page
 . Footer
+
 . Browse Items
+![alt image](media/browser.png)
 . Item Detail
+![alt image](media/item_detail.png)
 . Sign in, log in, log out
+
 . Shopping Bag
+![alt image](media/order_summary.png)
+
 . Checkout Page
+![alt image](media/checkout_views.py.png)
+![alt image](media/checkout_models.py.png)
+
 . Order Confirmation
+![alt image](media/order_confirmation.png)
+
 . Profile Page
+
 . Blog
+![alt image](media/blog_admin.py.png)
+
+![alt image](media/blog_forms.py.png)
+
+![alt image](media/blog_models.py.png)
+
+![alt image](media/blog_views.py.png)
 . Reviews
+
 . Subscribe
 . Facebook Page
 . Keywords
@@ -42,11 +65,20 @@ You can reach the live site here.
 . Bag Icon
 . Shopping Bag
 . Checkout
+
+![alt image](media/checkout_models.py.png)
+
+![alt image](media/checkout_views.py.png)
 . Card Details
+
 . Order Confirmation
+
 . Stripe
+
 . Profile Page
+
 . Footer
+
 . Blog
 . Reviews
 . Subscribe
