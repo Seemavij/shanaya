@@ -69,6 +69,18 @@ body {
 
 
 /* About us section */
+.about-us {
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        }
+        
+    background-color: rgba(205, 25, 25, 0.579);
+    color: rgb(201, 166, 8);
+}
 
 .about-us-img-container {
     background: url('/media/about-image.png') no-repeat center center;
@@ -102,6 +114,7 @@ body {
     height: 87%;
     outline: 2px solid var(--chem-green);
     border-radius: 5px;
+    background: url('/media/contact-us.png') no-repeat center center;
 }
 /* products page */
 

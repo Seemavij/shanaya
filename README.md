@@ -38,6 +38,8 @@ You can reach the live site here.
 
 . Sign in, log in, log out
 
+![alt image](media/sign_in.png)
+
 ![alt image](media/sign_out.png)
 
 . Shopping Bag
