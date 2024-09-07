@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik&display=swap');
 
 html {
     height: 100%;
 }
 
-  
+
 body {
     background-image: url('/media/homepage_background_cropped.jpg');
     background-repeat: no-repeat;
@@ -17,6 +16,7 @@ body {
     font-family: 'Rubik';
     background-color: rgba(209, 106, 21, 0.936);
 }
+
 /* spacing container */
 .header-container {
     padding-top: 145px;
@@ -28,8 +28,9 @@ body {
     border-radius: 10px;
 }
 
-.mt-auto, .my-auto {
-    margin-top: 0!important;
+.mt-auto,
+.my-auto {
+    margin-top: 0 !important;
 }
 
 .navbar-light .navbar-toggler {
@@ -69,43 +70,34 @@ body {
 
 /* Form */
 
+/* contact-us*/
+
 .form-section {
     clear: left;
     background: url("https://shanaya07.s3.eu-north-1.amazonaws.com/media/contact-page.png");
     background-size: cover;
     background-position: center;
     height: 900px;
-    
+
 }
 
-.contact-us-form {
-    margin: 150px 10% 0 0;
-    color: #bc0d0d85;
-    background-color: rgba(24, 222, 209, 0.79);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
-
-.signup-form > h2 {
+.signup-form>h2 {
     color: #1cd3a58f;
     margin-bottom: 20px;
 }
+
 /* About us section */
 
-   
 .about-us-img-container {
-    body {
-        background-image: url('/media/contact-us.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    .navy-bg {
-        background-color: var(rgb(11, 212, 226));
-    }
+    background: url('/media/about-us.png') no-repeat center center;
+    height: 350px;
 }
+
+.navy-bg {
+    background-color: var(rgba(31, 182, 227, 0.81));
+}
+
+
 
 .shop-now-button {
     background: black;
@@ -125,30 +117,42 @@ body {
     color: rgba(214, 136, 26, 0.959);
     padding-left: 10px;
     text-decoration: none;
-    
+
 }
+
 /* Contact-us Page */
 
 /* Add a background color and some padding around the form */
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
 
 .contact-us {
-       background: url('/media/contact-page.png') no-repeat center center;
+    background: url('/media/contact-page.png') no-repeat center center;
 }
+
 /* products page */
 
-.item-img-fluid{
+.item-img-fluid {
     width: 100%;
     height: 28vw;
     object-fit: contain;
@@ -166,8 +170,9 @@ input[type=text], select, textarea {
 
 .review-body {
     border-radius: 15px;
-    border:solid 1px black; 
+    border: solid 1px black;
 }
+
 .write-review {
     margin-bottom: 15px;
     border-radius: 15px;
@@ -180,8 +185,7 @@ input[type=text], select, textarea {
 
 .write-review-link:hover {
     background-color: black;
-    color: white;
-    border:solid, 1px, black;
+    color: rgba(228, 13, 13, 0.667);
     border-radius: 15px;
     padding: 5px;
     text-decoration: none;
@@ -190,7 +194,7 @@ input[type=text], select, textarea {
 .write-review-link {
     background-color: white;
     color: black;
-    border:solid 1px black;
+    border: solid 1px black;
     border-radius: 15px;
     padding: 5px;
 }
@@ -205,7 +209,8 @@ input[type=text], select, textarea {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
+    /* use important to override link colors for <a> elements */
     border: 1px solid black;
     margin-bottom: 15px;
     border-radius: 15px;
@@ -243,10 +248,10 @@ input[type=text], select, textarea {
 }
 
 .bg-black {
-    background:#e8440d !important;
+    background: #e8440d !important;
 }
 
-a.category-badge > span.badge:hover {
+a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
@@ -275,7 +280,7 @@ a.category-badge > span.badge:hover {
     z-index: -1;
 }
 
-/* toasts */ 
+/* toasts */
 
 .message-container {
     position: fixed;
@@ -295,10 +300,10 @@ toast-capper {
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
@@ -347,18 +352,20 @@ toast-capper {
 /* Mailchimp CSS */
 
 mc_embed_signup {
-    background:#dfc00f; 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif;  
-    width:600px;
+    background: #dfc00f;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
 }
-.signin-form  {
+
+.signin-form {
     color: #0E6461;
     font-weight: bold;
     text-decoration: none;
 }
+
 .my-mailchimp {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -370,8 +377,10 @@ mc_embed_signup {
 
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    margin-top: 1.5rem;
+    /* mt-4 */
+    color: #6c757d;
+    /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -389,8 +398,8 @@ mc_embed_signup {
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+    /* btn */
+    display: inline-block;
     font-weight: 400;
     color: #18c4b0;
     text-align: center;
@@ -408,18 +417,19 @@ mc_embed_signup {
     margin-bottom: 15px;
 
     /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
     background-color: #222;
     border-color: #222;
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+    color: #17a2b8;
+    /* text-info */
 }
 
 .container-bottom {
@@ -467,16 +477,16 @@ mc_embed_signup {
 /* adjust mobile header on small mobile */
 
 @media (max-width:991px) {
-    body{
-        height:calc(100vh - 116px);
+    body {
+        height: calc(100vh - 116px);
     }
-    
+
     .display-4.logo-font.text-white {
         font-size: 2rem;
     }
 
-    .nav-link{
-        padding: 0.15rem;   
+    .nav-link {
+        padding: 0.15rem;
     }
 
     .nav-link i.fa-lg {
@@ -499,3 +509,14 @@ mc_embed_signup {
         font-size: .75rem;
     }
 }
+.cover {
+    background-color: var(rgba(211, 25, 56, 0.683));
+    padding: 0 20px 20px 20px;
+    height: 100%;
+}
+
+hr {
+    color: var(--chem-navy);
+}
+
+

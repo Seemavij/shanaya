@@ -1,3 +1,5 @@
+![alt image](media/responsive.png)
+
 ! Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on resonable rate.
 
 You can reach the live site here.
@@ -73,6 +75,8 @@ You can reach the live site here.
 
 . Security
 
+![alt text](/media/colour.png)
+
 . Design
 
 . Colour Scheme
@@ -137,6 +141,8 @@ You can reach the live site here.
 . Blog
 
 . Reviews
+
+![alt image](media/review.png)
 
 . Subscribe
 
@@ -332,6 +338,7 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 . As a developer, I want to ensure the forms are all the same style and look good on all devices
 
 
+![alt image](media/django_admin.png)
 
 * Database :
 
@@ -351,6 +358,8 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 * Design :
 
 . Colour Scheme
+
+![alt image](media/colour.png)
 
 . I opted for a simple black white and grey colour scheme. I wanted the site to look clean and simple in its design
 
@@ -769,4 +778,4 @@ tag that was used incorrectly inside a .
 
 Thanks for all customers for their support.
 
-![alt image](media/about.us.png)
+![alt image](media/about-us.png)
