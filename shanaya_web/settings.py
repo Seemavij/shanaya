@@ -31,7 +31,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = False
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = [
     'shanaya.herokuapp.com',
@@ -67,8 +66,8 @@ INSTALLED_APPS = [
     # Other
     'crispy_forms',
     'storages',
-    
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
