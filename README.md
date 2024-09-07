@@ -379,7 +379,8 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 >The structure of the site was made using HTML
 
 . CSS
-
+![alt image](media/base_css.png
+)
 >The website was styled using CSS in an external stylesheet
 
 . Python

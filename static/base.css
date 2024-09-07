@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik&display=swap');
 
+
 html {
     height: 100%;
 }
@@ -77,8 +78,11 @@ body {
     background: url("https://shanaya07.s3.eu-north-1.amazonaws.com/media/contact-page.png");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 200px;
 
+}
+.login-form {
+    background-color: #ffcfc2cd;
 }
 
 .signup-form>h2 {
@@ -86,24 +90,29 @@ body {
     margin-bottom: 20px;
 }
 
-/* About us section */
+
+/* About section */
 
 .about-us-img-container {
-    background: url('/media/about-us.png') no-repeat center center;
+    background: url('/media/about-image.png') no-repeat center center;
     height: 350px;
 }
-
-.navy-bg {
-    background-color: var(rgba(31, 182, 227, 0.81));
+#about {
+    background-color: #e2a128;
 }
 
 
+.intro-about-section {
+    line-height: 2rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+}
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-    border-radius: 15px;
+.about-section {
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
 }
 
 /* Footer */
@@ -121,34 +130,35 @@ body {
 }
 
 /* Contact-us Page */
+/* Setting a fixed top margin */
 
-/* Add a background color and some padding around the form */
+element {
+    margin-top: 50px;
+    }
+    
+    /* Setting a top margin relative to the width of the containing element */
+    
+  
+    
+    /* Using 'auto' to let the browser decide the top margin */
+    auto-margin {
+    margin-top: auto;
+    }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text],
-select,
-textarea {
+ /* Style inputs with type="text", select elements and textareas */
+
+ input[type=text], input[type=email], textarea {
     width: 100%;
-    /* Full width */
-    padding: 12px;
-    /* Some padding */
+    padding: 10px;
     border: 1px solid #ccc;
-    /* Gray border */
     border-radius: 4px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
-    resize: vertical
-        /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical;
 }
+    
 
-.contact-us {
-    background: url('/media/contact-page.png') no-repeat center center;
-}
 
 /* products page */
 
@@ -510,7 +520,7 @@ mc_embed_signup {
     }
 }
 .cover {
-    background-color: var(rgba(211, 25, 56, 0.683));
+   
     padding: 0 20px 20px 20px;
     height: 100%;
 }
