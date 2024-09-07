@@ -10,15 +10,16 @@
     </div>
 
 
-        <div class="col-12 col-lg-6 mx-auto">
-            <form method="POST" class="form mb-2">
-                {% csrf_token %}
-                {{ form|crispy}}
-                <div class="text-start">
-                    <input type="submit" class="my-3 btn add-to-btn">
-                </div>
-            </form>
-        </div>
+
+    <div class="col-12 col-lg-6 mx-auto">
+        <form method="POST" class="form mb-2">
+            {% csrf_token %}
+            {{ form|crispy}}
+            <div class="text-start">
+                <input type="submit" class="my-3 btn add-to-btn">
+            </div>
+        </form>
     </div>
+</div>
 </div>
 {% endblock %}

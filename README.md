@@ -62,35 +62,73 @@ You can reach the live site here.
 . Reviews
 
 . Subscribe
-. Facebook Page
+
 . Keywords
-. Features left to implement
+
 . Wireframes
+
+![alt text](/media/wireframe.png)
+
 . Database
+
 . Security
+
 . Design
+
 . Colour Scheme
+
 . Typography
+
 . Imagery
+
 . Technologies
+
 . External Python Modules
 . Testing
+
 . Functional Testing
+
 . Navigation Links
+
 . Products page
+
 . Product Details page
+
+. Bridal Wear
+
+. Sarees
+
+. Suits
+
+. suit
+
+. cod_set
+
+. Dresses
+
 . Bag Icon
+
+![alt image](media/checkout_models.py.png)
+
 . Shopping Bag
+
 . Checkout
 
 ![alt image](media/checkout_models.py.png)
 
 ![alt image](media/checkout_views.py.png)
+
 . Card Details
+
+![alt image](media/order_history.png)
 
 . Order Confirmation
 
+![alt image](media/order_confirmation.png)
+
 . Stripe
+
+![alt image](media/stripe.png)
 
 . Profile Page
 
@@ -108,17 +146,43 @@ You can reach the live site here.
 
 . Validator Testing
 
+![alt image](media/css.testing.png)
+
 . PP8 Validator
 
 ![alt image](media/checkout_views.py.png)
+
 ![alt image](media/blog_models.py.png)
+
 ![alt image](media/blog_admin.py.png)
 
 . Javascript
+
 . Lighthouse Report
+
+![alt image](media/lighthouse_testing.png)
+
 . Responsiveness
+
+![alt image](media/manaul_testing.png)
+
 . Bugs
+
+As well as the user story testing conducted I clicked every link and button on both desktop and mobile to confirm they are all functioning as they should.
+
+
 . Deployment
+
+> Cloning Git Repository
+
+>Create App on Heroku
+
+>Connecting Heroku to Github
+
+>Set up Amazon AWS S3 Bucket
+
+>Details
+
 . References
 . Acknowledgements
 
@@ -670,16 +734,21 @@ tag that was used incorrectly inside a .
 
 . Scroll down to Manual deploy and choose the main branch
 
-
-
-
-
+. than connect to repositry
 
 . Click Deploy
 
 . The app should now be deployed
 
+* Credits
+
+>I created the bulk of this project following the 'Boutique Ado' walkthrough project and had to copy the entire checkout section, which is documented in my bug errors.
+
+>A lot of my newsletter code came from here: Newsletter Code 1 | Newsletter Code 2
+
+>A lot of the import/ export came from here: Export Code | Review Stars Code
 * References
+
 . I used the django documentation
 
 . I used the bootstrap documentation
@@ -697,3 +766,7 @@ tag that was used incorrectly inside a .
 . My mentor & Tutor for all her guidance
 
 . The wonderful slack community
+
+Thanks for all customers for their support.
+
+![alt image](media/about.us.png)

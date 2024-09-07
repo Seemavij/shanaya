@@ -67,25 +67,44 @@ body {
     width: fit-content;
 }
 
+/* Form */
 
-/* About us section */
-
-.about-us {
-    .circle {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        overflow: hidden;
-        position: relative;
-        }
-        
-    background-color: rgba(194, 40, 40, 0.515);
-    color: rgba(218, 187, 52, 0.642);
+.form-section {
+    clear: left;
+    background: url("https://shanaya07.s3.eu-north-1.amazonaws.com/media/contact-page.png");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    
 }
 
+.contact-us-form {
+    margin: 150px 10% 0 0;
+    color: #bc0d0d85;
+    background-color: rgba(24, 222, 209, 0.79);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #1cd3a58f;
+    margin-bottom: 20px;
+}
+/* About us section */
+
+   
 .about-us-img-container {
-    background: url('/media/about-image.png') no-repeat center center;
-    height: 350px;
+    body {
+        background-image: url('/media/contact-us.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .navy-bg {
+        background-color: var(rgb(11, 212, 226));
+    }
 }
 
 .shop-now-button {
@@ -110,11 +129,22 @@ body {
 }
 /* Contact-us Page */
 
+/* Add a background color and some padding around the form */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
 .contact-us {
-    width: 50%;
-    height: 60%;
-    outline: 2px solid var(rgb(203, 16, 47));
-    background: url('/media/contact-us.png') no-repeat center center;
+       background: url('/media/contact-page.png') no-repeat center center;
 }
 /* products page */
 
@@ -316,13 +346,17 @@ toast-capper {
 
 /* Mailchimp CSS */
 
-#mc_embed_signup {
+mc_embed_signup {
     background:#dfc00f; 
     clear:left; 
     font:14px Helvetica,Arial,sans-serif;  
     width:600px;
 }
-
+.signin-form  {
+    color: #0E6461;
+    font-weight: bold;
+    text-decoration: none;
+}
 .my-mailchimp {
     display:flex;
     justify-content: center;
