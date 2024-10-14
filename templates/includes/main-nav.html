@@ -8,7 +8,7 @@
         </li>
         <li class="nav-item dropdown">
             <!-- products nav -->
-            <a class="nav-font font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link"
+            <a class="nav-font font-weight-bold nav-link mr-5" href="#" id="all-products-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
@@ -22,11 +22,11 @@
 
         <li class="nav-item dropdown">
             <!-- womens clothes  -->
-            <a class="nav-font font-weight-bold nav-link text-white mr-5" href="#" id="clothing-link"
+            <a class="nav-font font-weight-bold nav-link mr-5" href="#" id="women-clothing-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 women
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+            <div class="dropdown-menu border-0" aria-labelledby="women-clothing-link">
                 <a href="{% url 'products' %}?category=bridal_dresses" class="dropdown-products">Bridal Dresses</a>
                 <a href="{% url 'products' %}?category=women_gowns" class="dropdown-products">Gowns</a>
                 <a href="{% url 'products' %}?category=women_suit" class="dropdown-products">Suit</a>
@@ -40,11 +40,11 @@
 
         <li class="nav-item dropdown">
             <!-- mens clothes  -->
-            <a class="nav-font font-weight-bold nav-link text-white mr-5" href="#" id="clothing-link"
+            <a class="nav-font font-weight-bold nav-link mr-5" href="#" id="mens-clothing-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Mens
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+            <div class="dropdown-menu border-0" aria-labelledby="mens-clothing-link">
                 <a href="{% url 'products' %}?category=mens_suits" class="dropdown-products">Suits</a>
                 <a href="{% url 'products' %}?category=sherwani" class="dropdown-products">Sherwani</a>
                 <a href="{% url 'products' %}?category=Sherwani,mens_suits"

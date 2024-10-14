@@ -4,7 +4,8 @@
 {% block extra_title %}- Contact Us{% endblock %}
 
 {% block content %}
-<div class="cover">
+<div>
+<h1 id="myHeader">My Header</h1>
     <div class="col text-center py-2">
         <h2 class="product-heading">Contact Us</h2>
     </div>
@@ -12,21 +13,7 @@
     <!-- Stylesheet -->
     <link href="base.css" rel="stylesheet" type="text/css">
 
-    <style>
-          body {
-            background-image: url('https://shanaya07.s3.eu-north-1.amazonaws.com/media/Screenshot+2024-09-07+195606.png');
-            background-color: rgba(28, 5, 5, 0.072);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-           
-}
-        
-    </style>
-
-
-
-
+   
     <div class="col-12 col-lg-6 mx-auto">
         <form method="POST" class="form mb-2">
             {% csrf_token %}
