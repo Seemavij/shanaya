@@ -75,7 +75,7 @@ body {
 
 .form-section {
     clear: left;
-    background: url("https://shanaya07.s3.eu-north-1.amazonaws.com/media/contact-us.png");
+    background: url("https://shanaya07.s3.eu-north-1.amazonaws.com/media/contact-page.png");
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -94,7 +94,7 @@ body {
 /* About section */
 
 .about-us-img-container {
-    background: url('/media/about-image.png') no-repeat center center;
+    background: url('/media/background-image.png') no-repeat center center;
     height: 350px;
 }
 #about {
@@ -211,7 +211,7 @@ element {
 
 /* buttons */
 .btn-black {
-    background: black;
+    background: rgba(0, 0, 0, 0.606);
     color: white;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -219,9 +219,9 @@ element {
 
 .btn-outline-black {
     background: white;
-    color: black !important;
+    color: rgba(0, 0, 0, 0.259) !important;
     /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.832);
     margin-bottom: 15px;
     border-radius: 15px;
 }
@@ -244,7 +244,7 @@ element {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #2222227e;
     color: white;
     border-radius: 15px;
 }
@@ -262,7 +262,7 @@ element {
 }
 
 a.category-badge>span.badge:hover {
-    background: #212529 !important;
+    background: #21252939 !important;
     color: #fff !important;
 }
 
@@ -314,7 +314,7 @@ toast-capper {
     height: 0;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.784);
     position: absolute;
     top: -10px;
     right: 36px;
@@ -322,11 +322,11 @@ toast-capper {
 
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
-    border-bottom-color: #007bff !important;
+    border-bottom-color: #007bff4c !important;
 }
 
 .arrow-secondary {
-    border-bottom-color: #6c757d !important;
+    border-bottom-color: #6c757d2f !important;
 }
 
 .arrow-success {
@@ -342,15 +342,15 @@ toast-capper {
 }
 
 .arrow-info {
-    border-bottom-color: #17a2b8 !important;
+    border-bottom-color: #10b7d0 !important;
 }
 
 .arrow-light {
-    border-bottom-color: #f8f9fa !important;
+    border-bottom-color: #f8f9fa92 !important;
 }
 
 .arrow-dark {
-    border-bottom-color: #343a40 !important;
+    border-bottom-color: #d6640d78 !important;
 }
 
 .bag-notification-wrapper {
@@ -418,7 +418,7 @@ mc_embed_signup {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
+    background-color: #d30a0a63;
     border: 1px solid #000;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -433,7 +433,7 @@ mc_embed_signup {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {
     color: #fff;
-    background-color: #222;
+    background-color: #22222229;
     border-color: #222;
 }
 
