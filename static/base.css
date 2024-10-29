@@ -211,7 +211,7 @@ element {
 
 /* buttons */
 .btn-black {
-    background: rgba(0, 0, 0, 0.606);
+    background: rgba(0, 0, 0, 0.517);
     color: white;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -468,7 +468,7 @@ mc_embed_signup {
     .header-container {
         padding-top: 164px;
     }
-}
+   
 
 /* Adjust header container for screens over 408px */
 @media (min-width: 408px) {
@@ -525,8 +525,4 @@ mc_embed_signup {
     height: 100%;
 }
 
-hr {
-    color: var(--chem-navy);
 }
-
-

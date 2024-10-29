@@ -1,4 +1,3 @@
-
 from django.db import models
 from products.models import Product
 from django.template.defaultfilters import truncatewords
