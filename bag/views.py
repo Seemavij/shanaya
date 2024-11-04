@@ -14,7 +14,7 @@ def add_to_bag(request, item_id):
 
     # item = get_object_or_404(product, pk=item_id)
     item = get_object_or_404(Product, pk=item_id)
-    quantity = 1
+    quantity = int(request.POST.get('quantity'))
 
     redirect_url = request.POST.get('redirect_url')
     bag = request.session.get('bag', {})
