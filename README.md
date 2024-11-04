@@ -1,14 +1,12 @@
 ![alt image](media/responsive.png)
 
+Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
 
-! Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
-
- You can reach the live site here 
-
+You can reach the live site here
 
 * Table of Contents:
 
-. Business-Model
+<!-- . Business-Model -->
 
 ![alt image](media/about-us.png)
 
@@ -24,7 +22,7 @@ All user stories can be seen here Shanaya
 
 . As a site user I want to be able to login and logout so that I can access my profile info
 
-. As a site user I want to be able to receive an email confirmation after sign up so that I can verify my account registration was successful
+. As a site user I want to be able to receive an email confirmation after sign up so that I can verify my account registration was successfull
 
 . As a site user I want to be able to have a personalised user profile so that I can view my order history and delivery information
 
@@ -238,8 +236,16 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 
 . Bugs
 
-As well as the user story testing conducted I clicked every link and button on both desktop and mobile to confirm they are all functioning as they should.
+As well as the user story testing conducted I clicked every link and button on both desktop and mobile to confirm they are all functioning as they should but found one bug on Signup page.
 
+. Tested all page getting bug in Sign up page after Validation.
+
+SignUp Page:
+
+. This is a  Django allauth code.
+
+. Getting Error on SignUp Page when doing Validation Testing Signup page shows one Error <ul> this is Bootstrap error I tried so many things and Tutor advised because of 
+ Bootstrap version this error appear if I have to fix this change version of package to lower than 0.57 or otherwise declare than in Read me I am getting this Bug in Bootstrap Version.
 
 . Deployment
 
@@ -265,7 +271,7 @@ Shanaya is a B2C business. The business of Shanaya is to sell Men and Women clot
 
 * User-Experience-Design :
 
-!Site Goals
+Site Goals
 
 The site is aimed at anyone they can browse and see over new and all collection at very easily at there comfort zone, and anyone who wants to buy beautifull items. Without signing in the user can browse the online store and buy their items. They can also look at the site blog to see that are being helped by the site. They can log in to see a log of the items they have bought and leave a review of the site. They can also save their details for future purchases.
 
@@ -707,7 +713,7 @@ I also updated the customer details which then changed on the checkout form the 
 
 * Accessibility :
 
-. I used the Wave Accessibilitytool to check for aid accessibility testing.
+. I used the Wave Accessibility tool to check for aid accessibility testing.
 
 . The page showed a couple of errors and they were for labels on the search box in the nav bar. I added aria labels for this but the errors stayed in the box despite disappearing on the page.
 
@@ -721,7 +727,7 @@ I also updated the customer details which then changed on the checkout form the 
 
 tag that was used incorrectly inside a .
 
-. All issues were fixed and all pages ran through the checker with no errors.
+. All issues were fixed and all pages run through the checker with no errors.
 
 * PP8 Validator :
 
