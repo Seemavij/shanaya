@@ -167,83 +167,81 @@
     </div>
 
 
-    <div>
-        <!-- Footer Address -->
-        <footer class="footer">
-            <div class="row mx-auto mt-3 text-center off-white-text footer-size">
-                <div class="col-12 col-md-3 text-md-start ps-3">
 
+    <!-- Footer Address -->
 
+    <footer class="pt-1 footer">
+        <div class="row mx-auto mt-3 text-center off-white-text footer-size">
+            <div class="col-12 col-md-3 text-md-start ps-3">
+                <h6 class="off-white-text mb-3 footer-headings">Address</h6>
+                <p><i class="fas fa-home me-1 green-text"></i>78A Stayuer Road</p>
+                <p><i class="fas fa-home me-1 green-text"></i>St.Peter Street Near Pearce Court</p>
+                <p><i class="fas fa-home me-1 green-text"></i>Birmingham,UK</p>
+                <hr class="my-3 d-block d-md-none footer-break">
+            </div>
 
-                    <h6 class="off-white-text mb-3 footer-headings">Products</h6>
-                    <a class="dropdown-item" href="{% url 'products' %}?category=dresses">
-                        <p class="mb-1">Dresses</p>
-                    </a>
-                    <a class="dropdown-item" href="{% url 'products' %}?category=bridal-wear">
-                        <p class="mb-1">Bridal-wear</p>
-                    </a>
-                    <a class="dropdown-item" href="{% url 'products' %}?category=groom-wear">
-                        <p class="mb-1">Groom-Wear</p>
-                    </a>
-                    <a class="dropdown-item" href="{% url 'products' %}?category=gowns">
-                        <p class="mb-1">Gowns</p>
-                    </a>
-                    <a class="dropdown-item" href="{% url 'products' %}?category=sherwani">
-                        <p class="mb-1">Sherwani</p>
-                    </a>
-                </div>
-                <div class="col-lg-5 col-md-12 align-self-center" id="get-in-touch">
-                    <div class="p-3">
-                        <div class="p-3">
-                            <h4 class="text-center">Get in Touch!</h4>
-                            <p><i class="fa-regular fa-envelope"></i>shanaya_web@order.com</p>
-                            <hr class="border border-dark border-2">
-                            <div class="row">
-                            </div>
+            <!-- Footer site links to products -->
+            <div class="col-12 col-md-3 text-md-start font-bold">
+                <h6 class="off-white-text mb-3 footer-headings">Products</h6>
+                <a class="dropdown-item" href="{% url 'products' %}?category=dresses">
+                    <p class="mb-1">Dresses</p>
+                </a>
+                <a class="dropdown-item" href="{% url 'products' %}?category=bridal-wear">
+                    <p class="mb-1">Bridal-wear</p>
+                </a>
+                <a class="dropdown-item" href="{% url 'products' %}?category=groom-wear">
+                    <p class="mb-1">Groom-Wear</p>
+                </a>
+                <a class="dropdown-item" href="{% url 'products' %}?category=gowns">
+                    <p class="mb-1">Gowns</p>
+                </a>
+                <a class="dropdown-item" href="{% url 'products' %}?category=sherwani">
+                    <p class="mb-1">Sherwani</p>
+                </a>
+                <hr class="my-3 d-block d-md-none footer-break">
+            </div>
 
-                        </div>
-                        <div>
-                            <p>78A Stayuer Road</p>
-                            <p>St.Peter Street Near Pearce Court</p>
-                            <p>Birmingham</p>
-                            <p>UK</p>
-                        </div>
-                        <div>
-                            <ul class="social-networks">
-                                <li>
-                                    <a href="http://facebook.com" target="_blank" rel="noopener"
-                                        aria-label="Visit out Facebook page (opens in a new tab)"><i
-                                            class="fa-brands fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="http://instagram.com" target="_blank" rel="noopener"
-                                        aria-label="Visit out Instagram page (opens in a new tab)"><i
-                                            class="fa-brands fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                    <a href="http://twitter.com" target="_blank" rel="noopener"
-                                        aria-label="Visit out Twitter page (opens in a new tab)"><i
-                                            class="fa-brands fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="http://pinterest.com" target="_blank" rel="noopener"
-                                        aria-label="Visit out Pinterest page (opens in a new tab)"><i
-                                            class="fa-brands fa-pinterest"></i></a>
-                                </li>
-                            </ul>
-                            <p>&copy; <em id="date"></em> Seema Vij</p>
-                        </div>
-                    </div>
+            <div class="col-12 col-md-3 text-md-start font-awesome">
+                <h6 class="off-white-text mb-3 footer-headings">Get In Touch</h6>
+                <p><i class="fas fa-envelope me-1 green-text"></i>Shanaya_web@order.com</p>
+                <p><i class="fas fa-phone me-1 green-text"></i> 1161 327 792</p>
+                <p><i class="fa-solid fa-globe me-1 green-text"></i>www.shanaya.com</p>
+                <hr class="my-3 d-block d-md-none footer-break">
+            </div>
+
+            <!-- Social links -->
+            <div>
+                <ul class="social-networks">
+                    <li>
+                        <a href="http://facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit out Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit out Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit out Twitter page (opens in a new tab)"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </li>
+
+                </ul>
+                <p>&copy; <em id="date"></em> Seema Vij</p>
+            </div>
 
 
 
 
-                </div>
-                {% block postloadjs %}
-                <script>
-                    $('.toast').toast('show');
-                </script>
-                {% endblock %}
+
+        </div>
+        {% block postloadjs %}
+        <script>
+            $('.toast').toast('show');
+        </script>
+        {% endblock %}
 
 
 </body>
