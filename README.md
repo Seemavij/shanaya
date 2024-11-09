@@ -2,7 +2,7 @@
 
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
 
-You can reach the live site here
+  --You can reach the live site here--
 
 * Table of Contents:
 
@@ -10,7 +10,7 @@ You can reach the live site here
 
 ![alt image](media/about-us.png)
 
-. User Experience (UX)
+<!--User Experience (UX)  -->
 
 User stories :
 

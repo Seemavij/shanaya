@@ -91,13 +91,13 @@ body {
 }
 
 
-/* About section */
+/* About-us section */
 
 .about-us-img-container {
     background: url('/media/shanaya-logo.png') no-repeat center center;
     height: 350px;
 }
-#about {
+#about-us {
     background-color: #e2a128;
 }
 
@@ -216,7 +216,7 @@ element {
 
 /* buttons */
 .btn-black {
-    background: rgba(0, 0, 0, 0.517);
+    background: rgba(0, 0, 0, 0.789);
     color: white;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -224,7 +224,7 @@ element {
 
 .btn-outline-black {
     background: white;
-    color: rgba(0, 0, 0, 0.259) !important;
+    color: rgba(0, 0, 0, 0.819) !important;
     /* use important to override link colors for <a> elements */
     border: 1px solid rgba(0, 0, 0, 0.832);
     margin-bottom: 15px;
@@ -249,7 +249,7 @@ element {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #2222227e;
+    background: #222222e0;
     color: white;
     border-radius: 15px;
 }
@@ -450,6 +450,13 @@ mc_embed_signup {
 .container-bottom {
     padding-bottom: 196px;
 }
+
+/* Sign-up page */
+
+.sign-up {
+    text-decoration-color: var(green);
+}
+
 
 /* -------------------------------- Media Queries */
 
