@@ -3,24 +3,24 @@
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
 
 You can reach the live site here
------------------------------------
-
+___________________________
 
 * Table of Contents:
---------------------
+__________________
+
 
 <!-- . Business-Model -->
--------------------------
+_________________________
 ![alt image](media/about-us.png)
 
 <!--User Experience (UX)  -->
--------------------------
-User stories :
----------------
+_________________________
+User stories
+____________
 All user stories can be seen here Shanaya
 
 * Site User Stories
-
+____________________
 . As a site user I want to be able to register for an account so that I can have a personal account with my delivery details saved
 
 . As a site user I want to be able to login and logout so that I can access my profile info
@@ -38,7 +38,7 @@ All user stories can be seen here Shanaya
 . As a site user I can return to Home after http 404 or 500 response so that I feel I am still working within the website and can navigate easily
 
 * Shopper User Stories
-
+_______________________
 . As a shopper I want to be able to view my total cost so that I can I don't spend too much
 
 . As a shopper I want to be able to sort any list of products so that I can easily sort by price, best rated, etc
@@ -62,7 +62,7 @@ All user stories can be seen here Shanaya
 . As a shopper I want to be able to contact Shanaya so that I can get in touch regarding a product/ issue, etc
 
 Admin Stories
----------------
+______________
 
 As an admin I want to be able to add a product so that I can I can add new products my store
 
@@ -78,29 +78,29 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 
 
 . Site Goals
----------------
+_____________
 . Agile Planning
----------------
+_______________
 . Scope
----------------
+_______________
 . Structure
----------------
+______________
 . Shanaya Features:
---------------------
-.Home Page
---------------------
+_________________
+. Home Page
+___________
 ![alt image](media/homepage.png)
 
 . Footer
-----------
+_________
 ![alt image](media/footer.png)
 
 . Browse Items
----------------
+______________
 ![alt image](media/browser.png)
 
 . Item Detail
----------------
+_____________
 ![alt image](media/item_detail.png)
 
 . Sign in, log in, log out
@@ -110,60 +110,61 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 ![alt image](media/sign_out.png)
 
 . Shopping Bag
---------------
+______________
+
 ![alt image](media/order_summary.png)
 
 . Checkout Page
----------------
+_______________
 ![alt image](media/checkout_models.py.png)
 
 . Order Confirmation
---------------------
+____________________
 ![alt image](media/order_confirmation.png)
 
 . Profile Page
----------------
+______________
 . Blog
---------
+______
 ![alt image](media/blog_forms.py.png)
 
 ![alt image](media/blog_views.py.png)
 
 . Reviews
-----------
+_________
 . Subscribe
-----------
+___________
 . Keywords
-----------
+__________
 . Wireframes
--------------
+____________
 ![alt text](/media/wireframe.png)
 
 . Database
-----------
+_________
 . Security
-----------
+__________
 ![alt text](/media/colour.png)
 
 . Design
-----------
+______
 . Colour Scheme
---------------
+_____________
 . Typography
-----------
+____________
 . Imagery
----------
+_________
 . Technologies
---------------
+______________
 . External Python Modules
----------------
+___________________________
 . Testing
----------
+_________
 
 . Functional Testing
-------------------  
+____________________
 . Navigation Links
------------------- 
+__________________
 . Products page
 ------------------ 
 
