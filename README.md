@@ -14,7 +14,7 @@ _________________________
 ![alt image](media/about-us.png)
 
 <!--User Experience (UX)  -->
-_________________________
+
 User stories
 ____________
 All user stories can be seen here Shanaya

@@ -33,11 +33,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://shanaya-4953fd346fee.herokuapp.com/product/?sort=quality&amp;direction=asc</loc>
-  <lastmod>2022-10-25T13:38:35+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://shanaya-4953fd346fee.herokuapp.com/product/?sort=category&amp;direction=asc</loc>
   <lastmod>2022-10-25T13:38:35+00:00</lastmod>
   <priority>0.80</priority>

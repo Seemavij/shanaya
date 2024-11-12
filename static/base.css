@@ -17,6 +17,9 @@ body {
     font-family: 'Rubik';
     background-color: rgba(209, 106, 21, 0.936);
 }
+.content {
+    flex: 1 0 auto;
+}
 
 /* spacing container */
 .header-container {
@@ -96,7 +99,10 @@ body {
 .about-us-img-container {
     background: url('/media/shanaya-logo.png') no-repeat center center;
     height: 350px;
+    padding-top: 20px;
 }
+
+
 #about-us {
     background-color: #e2a128;
 }
@@ -247,6 +253,7 @@ element {
 .shop-now-button:active,
 .shop-now-button:focus,
 .btn-black:hover,
+.submit-button:hover,
 .btn-black:active,
 .btn-black:focus {
     background: #222222e0;
@@ -283,6 +290,7 @@ a.category-badge>span.badge:hover {
 .btt-link {
     cursor: pointer;
 }
+
 
 /* overlay  */
 .overlay {
