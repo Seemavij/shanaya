@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik&display=swap');
-
-
 html {
     height: 100%;
+}
+
+body {
+    min-height: 100%;
 }
 
 
@@ -17,6 +18,9 @@ body {
     font-family: 'Rubik';
     background-color: rgba(209, 106, 21, 0.936);
 }
+
+
+
 .content {
     flex: 1 0 auto;
 }
@@ -38,9 +42,9 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-    color: white;
-    border-color: white;
-    background-color: white;
+    color: rgba(255, 255, 255, 0.604);
+    border-color: rgba(255, 255, 255, 0.058);
+    background-color: rgba(195, 223, 17, 0.797);
 }
 
 
@@ -76,14 +80,16 @@ body {
 
 /* contact-us*/
 
+
 .form-section {
     clear: left;
-    background: url("https://shanaya07.s3.eu-north-1.amazonaws.com/contact-us.png");
+    background-color: burlywood;
     background-size: cover;
     background-position: center;
-    height: 200px;
-
+    height: 300px;
+    
 }
+
 .login-form {
     background-color: #ffcfc2cd;
 }
@@ -124,13 +130,13 @@ body {
 /* Footer */
 
 .footer {
-    display:flex;
-    }
+    display: flex;
+}
 
 .footer_links {
     color: rgba(207, 38, 38, 0.66);
     padding-left: 10px;
-    
+
 }
 
 .footer_links:hover {
@@ -144,21 +150,30 @@ body {
 /* Setting a fixed top margin */
 
 element {
-    margin-top: 50px;
-    }
-    
-    /* Setting a top margin relative to the width of the containing element */
-    
-  
-    
-    /* Using 'auto' to let the browser decide the top margin */
-    auto-margin {
+    margin-top: 50%;
+
+}
+
+/* Setting a top margin relative to the width of the containing element */
+
+.ContactForm
+{
+    width: 40%;
+    padding: 40px;
+    background-color: #18c4b0;
+    background-position-x: center;
+}
+
+/* Using 'auto' to let the browser decide the top margin */
+auto-margin {
     margin-top: auto;
-    }
+}
 
- /* Style inputs with type="text", select elements and textareas */
+/* Style inputs with type="text", select elements and textareas */
 
- input[type=text], input[type=email], textarea {
+input[type=text],
+input[type=email],
+textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -168,8 +183,23 @@ element {
     margin-bottom: 16px;
     resize: vertical;
 }
-    
 
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
 
 /* products page */
 
@@ -253,7 +283,6 @@ element {
 .shop-now-button:active,
 .shop-now-button:focus,
 .btn-black:hover,
-.submit-button:hover,
 .btn-black:active,
 .btn-black:focus {
     background: #222222e0;
@@ -427,9 +456,6 @@ mc_embed_signup {
     color: #18c4b0;
     text-align: center;
     vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     background-color: #d30a0a63;
     border: 1px solid #000;
@@ -459,11 +485,7 @@ mc_embed_signup {
     padding-bottom: 196px;
 }
 
-/* Sign-up page */
 
-.sign-up {
-    text-decoration-color: var(green);
-}
 
 
 /* -------------------------------- Media Queries */
@@ -488,61 +510,62 @@ mc_embed_signup {
     .header-container {
         padding-top: 164px;
     }
-   
 
-/* Adjust header container for screens over 408px */
-@media (min-width: 408px) {
-    .header-container {
-        padding-top: 100px;
-    }
-}
 
-/* Adjust header container for screes over 992px */
-@media (min-width: 992px) {
-    .header-container {
-        padding-top: 147px;
-    }
-}
-
-/* adjust mobile header on small mobile */
-
-@media (max-width:991px) {
-    body {
-        height: calc(100vh - 116px);
+    /* Adjust header container for screens over 408px */
+    @media (min-width: 408px) {
+        .header-container {
+            padding-top: 100px;
+        }
     }
 
-    .display-4.logo-font.text-white {
-        font-size: 2rem;
+    /* Adjust header container for screes over 992px */
+    @media (min-width: 992px) {
+        .header-container {
+            padding-top: 147px;
+        }
     }
 
-    .nav-link {
-        padding: 0.15rem;
+    /* adjust mobile header on small mobile */
+
+    @media (max-width:991px) {
+        body {
+            height: calc(100vh - 116px);
+        }
+
+        .display-4.logo-font.text-white {
+            font-size: 2rem;
+        }
+
+        .nav-link {
+            padding: 0.15rem;
+        }
+
+        .nav-link i.fa-lg {
+            font-size: 1rem;
+        }
+
+        .navbar-toggler {
+            padding: .6rem .6rem;
+            font-size: 1rem;
+        }
+
+        .btn.btn-black.rounded-pill.rounded,
+        .btn.btn-black.rounded-pill.rounded {
+            padding: .375rem .375rem;
+        }
+
+        .btn.btn-black.rounded-pill.rounded.btn-lg,
+        .btn.btn-black.rounded-pill.rounded.btn-lg {
+            padding: .375rem .375rem;
+            font-size: .75rem;
+        }
     }
 
-    .nav-link i.fa-lg {
-        font-size: 1rem;
-    }
+    .cover {
 
-    .navbar-toggler {
-        padding: .6rem .6rem;
-        font-size: 1rem;
+        padding: 0 20px 20px 20px;
+        height: 100%;
     }
-
-    .btn.btn-black.rounded-pill.rounded,
-    .btn.btn-black.rounded-pill.rounded {
-        padding: .375rem .375rem;
-    }
-
-    .btn.btn-black.rounded-pill.rounded.btn-lg,
-    .btn.btn-black.rounded-pill.rounded.btn-lg {
-        padding: .375rem .375rem;
-        font-size: .75rem;
-    }
-}
-.cover {
-   
-    padding: 0 20px 20px 20px;
-    height: 100%;
-}
 
 }

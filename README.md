@@ -195,7 +195,7 @@ __________________
 
 . Card Details
 --------------
-![alt image](media/order_history.png)
+#![alt image](media/order_.png)
 
 . Order Confirmation
 ------------------ 
@@ -222,9 +222,15 @@ __________________
 . Accessibility
 ------------------ 
 . Validator Testing
+
+![alt image](media/contact-us-testing.png)
 ------------------ 
 ![alt image](media/css.testing.png)
-
+------------------
+![alt image](media/cover-page-testing.png)
+------------------
+![alt image](media/checkout-page-testing.png)
+------------------
 . PP8 Validator
 ----------------
 ![alt image](media/checkout_views.py.png)
