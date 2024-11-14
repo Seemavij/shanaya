@@ -1,5 +1,9 @@
 ![alt image](media/responsive.png)
 
+My Favourite Engine is shanaya
+
+(https://github.com/Seemavij/shanaya)
+
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
 
 You can reach the live site here
@@ -82,9 +86,12 @@ _____________
 . Agile Planning
 _______________
 . Scope
-_______________
+
+![alt image](media/bag_context.py.png)
+
 . Structure
-______________
+
+![alt image](media/bag-views.py.png)
 . Shanaya Features:
 _________________
 . Home Page
@@ -162,6 +169,8 @@ ___________________________
 _________
 
 . Functional Testing
+
+![alt image](media/order-checkout.png)
 ____________________
 . Navigation Links
 __________________
@@ -194,13 +203,13 @@ __________________
 ![alt image](media/checkout_views.py.png)
 
 . Card Details
---------------
-#![alt image](media/order_.png)
+-----------
+![alt image](media/order-checkout.png)
 
 . Order Confirmation
 ------------------ 
-![alt image](media/order_confirmation.png)
 
+![alt image](media/order-confirmation.png)
 . Stripe
 --------
 ![alt image](media/stripe.png)

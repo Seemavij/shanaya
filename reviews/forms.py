@@ -3,7 +3,11 @@ from django import forms
 
 
 class ReviewForm(forms.ModelForm):
-    """ A form to make a comment """
+    """A form to make a comment"""
+
     class Meta:
         model = Review
-        fields = ('title', 'review',)
+        fields = (
+            "title",
+            "review",
+        )
