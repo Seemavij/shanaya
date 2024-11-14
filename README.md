@@ -1,16 +1,18 @@
 ![alt image](media/responsive.png)
 
 My Favourite Engine is shanaya
+                       -------
 
 (https://github.com/Seemavij/shanaya)
 
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
 
 You can reach the live site here
-___________________________
+                  --------
 
-* Table of Contents:
-__________________
+* Table of Contents :
+------------
+
 
 
 <!-- . Business-Model -->
@@ -20,11 +22,11 @@ _________________________
 <!--User Experience (UX)  -->
 
 User stories
-____________
+------------
 All user stories can be seen here Shanaya
 
 * Site User Stories
-____________________
+------------
 . As a site user I want to be able to register for an account so that I can have a personal account with my delivery details saved
 
 . As a site user I want to be able to login and logout so that I can access my profile info
@@ -42,7 +44,7 @@ ____________________
 . As a site user I can return to Home after http 404 or 500 response so that I feel I am still working within the website and can navigate easily
 
 * Shopper User Stories
-_______________________
+------------
 . As a shopper I want to be able to view my total cost so that I can I don't spend too much
 
 . As a shopper I want to be able to sort any list of products so that I can easily sort by price, best rated, etc
@@ -66,7 +68,7 @@ _______________________
 . As a shopper I want to be able to contact Shanaya so that I can get in touch regarding a product/ issue, etc
 
 Admin Stories
-______________
+------------
 
 As an admin I want to be able to add a product so that I can I can add new products my store
 
@@ -81,197 +83,222 @@ As an admin I want to be able to view all messages from the contact form so that
 As an admin I want to be able to view a list of subscribers in my admin so that I can see the amount of subscribers we have
 
 
-. Site Goals
-_____________
-. Agile Planning
-_______________
-. Scope
+> Site Goals
+------------
+> Agile Planning
+------------
+> Scope
+------
 
 ![alt image](media/bag_context.py.png)
 
-. Structure
+> Structure
+------------
 
 ![alt image](media/bag-views.py.png)
-. Shanaya Features:
-_________________
-. Home Page
-___________
+
+> Shanaya Features:
+------------
+> Home Page
+----------
+
 ![alt image](media/homepage.png)
 
-. Footer
-_________
+> Footer
+--------
+
 ![alt image](media/footer.png)
 
-. Browse Items
-______________
+> Browse Items
+------------
+
 ![alt image](media/browser.png)
 
-. Item Detail
-_____________
+> Item Detail
+------------
+
 ![alt image](media/item_detail.png)
 
-. Sign in, log in, log out
+> Sign in, log in, log out
 
 ![alt image](media/sign_in.png)
 
 ![alt image](media/sign_out.png)
 
-. Shopping Bag
-______________
+> Shopping Bag
+------------
 
 ![alt image](media/order_summary.png)
 
-. Checkout Page
-_______________
+> Checkout Page
+------------
+
 ![alt image](media/checkout_models.py.png)
 
-. Order Confirmation
-____________________
+> Order Confirmation
+------------
+
 ![alt image](media/order_confirmation.png)
 
-. Profile Page
-______________
-. Blog
-______
+> Profile Page
+------------
+> Blog
+------
 ![alt image](media/blog_forms.py.png)
 
 ![alt image](media/blog_views.py.png)
 
-. Reviews
-_________
-. Subscribe
-___________
-. Keywords
-__________
-. Wireframes
-____________
+> Reviews
+---------
+> Subscribe
+---------
+> Keywords
+---------
+> Wireframes
+-----------
 ![alt text](/media/wireframe.png)
 
-. Database
-_________
-. Security
-__________
+> Database
+-----------
+> Security
+----------
 ![alt text](/media/colour.png)
 
-. Design
-______
-. Colour Scheme
-_____________
-. Typography
-____________
-. Imagery
-_________
-. Technologies
-______________
-. External Python Modules
-___________________________
-. Testing
-_________
+> Design
+--------
+> Colour Scheme
+------------
+> Typography
+---------
+> Imagery
+--------
+> Technologies
+-----------
+>  External Python Modules
+------------
+> Testing
+---------
 
-. Functional Testing
+> Functional Testing
 
 ![alt image](media/order-checkout.png)
-____________________
-. Navigation Links
-__________________
-. Products page
------------------- 
 
-. Product Details page
------------------- 
-. Bridal Wear
--------------
-. Sarees
---------
-. Suits
--------
-. cod_set
----------
-. Dresses
----------
-. Bag Icon
-----------
-![alt image](media/checkout_models.py.png)
-
-. Shopping Bag
+> Navigation Links
+------------
+>  Products page
 --------------
-. Checkout
+
+> Product Details page
+------------------ 
+> Bridal Wear
+-------------
+> Sarees
+--------
+> Suits
+-------
+> cod_set
+---------
+> Dresses
+---------
+> Bag Icon
 ----------
 
 ![alt image](media/checkout_models.py.png)
 
+> Shopping Bag
+--------------
 ![alt image](media/checkout_views.py.png)
 
-. Card Details
+
+> Checkout
+----------
+
+![alt image](media/checkout_models.py.png)
+
+
+> Card Details
 -----------
+
 ![alt image](media/order-checkout.png)
 
-. Order Confirmation
+> Order Confirmation
 ------------------ 
 
 ![alt image](media/order-confirmation.png)
-. Stripe
+
+> Stripe
 --------
+
 ![alt image](media/stripe.png)
 
-. Profile Page
+> Profile Page
 --------------
-. Footer
+> Footer
 --------
-. Blog
+> Blog
 ------
-. Reviews
+> Reviews
 ----------
+
 ![alt image](media/review.png)
 
-. Subscribe
+> Subscribe
 -----------
-. Emails
+> Emails
 --------
-. Accessibility
+> Accessibility
 ------------------ 
-. Validator Testing
+> Validator Testing
 
 ![alt image](media/contact-us-testing.png)
+
 ------------------ 
 ![alt image](media/css.testing.png)
+
 ------------------
 ![alt image](media/cover-page-testing.png)
+
 ------------------
 ![alt image](media/checkout-page-testing.png)
+
 ------------------
-. PP8 Validator
+> PP8 Validator
 ----------------
+
 ![alt image](media/checkout_views.py.png)
+
 
 ![alt image](media/blog_models.py.png)
 
+
 ![alt image](media/blog_admin.py.png)
 
-. Javascript
+> Javascript
 ------------
-. Lighthouse Report
+
+> Lighthouse Report
 ------------------ 
+
 ![alt image](media/lighthouse_testing.png)
 
-. Responsiveness
+> Responsiveness
 ------------------ 
 ![alt image](media/manaul_testing.png)
 
-. Bugs
+> Bugs
 ------
 As well as the user story testing conducted I clicked every link and button on both desktop and mobile to confirm they are all functioning as they should but found one bug on Signup page.
 
 . Tested all page getting bug in Sign up page after Validation.
 
-SignUp Page:
+SignUp Page :
 ------------
 . This is a  Django allauth code.
 
 . Getting Error on SignUp Page when doing Validation Testing Signup page shows one Error <ul> this is Bootstrap error I tried so many things and Tutor advised because of 
  Bootstrap version this error appear if I have to fix this change version of package to lower than 0.57 or otherwise declare than in Read me I am getting this Bug in Bootstrap Version.
 
-. Deployment
+> Deployment
 ------------
 > Cloning Git Repository
 ------------------ 
@@ -283,9 +310,9 @@ SignUp Page:
 ------------------ 
 >Details
 ---------
-. References
+> References
 ------------
-. Acknowledgements
+> Acknowledgements
 ------------------ 
 
 Table of contents generated with markdown-toc
@@ -315,8 +342,11 @@ The base setup of the Django app was done first as nothing else can be completed
 Epic 1 user stories
 ------------------ 
 .  As a developer, I need to set up the project so that it is ready for implementing core features
+
 .  As a developer, I want to create a base HTML page so that all pages can use the same format.
+
 .  As a user, I want to be able to navigate around the site easily from any device
+
 Epic 2 - Products and shopping bag
 
 Setting up database model and admin functions and template pages to be able to view the products available to buy and have messages confirming when items have been added to the bag.
@@ -324,9 +354,13 @@ Setting up database model and admin functions and template pages to be able to v
 * Epic 2 User Stories
 ------------------ 
 . As a shopper, I want to view a list of products so that I can select something to buy
+
 . As a shopper, I want to be able to click into a product to view its details so I can see what size it is etc
+
 . As a user, I want to be able to view what I have added to my shopping bag and the total price
+
 . As a user, I want to be able to delete items from my bag when I decide I no longer want something.
+
 . As a user I want to receive a confirmation when I have made changes ie, adding and removing items to my bag so that I know when a change has been completed.
 
 ! Epic 3 - payment and purchase confirmation emails.
@@ -336,29 +370,41 @@ Setting up database model and admin functions and template pages to be able to v
 Epic 3 User Stories
 
 . As a shopper, I want to be able to easily enter my payment details so that I can purchase my chosen items.
+
 . As a shopper, I want to see confirmation that my payment has gone through successfully and that my purchase is being sent to the correct address so that I know it has been done correctly
+
 . As a shopper I want Shanaya to send me an email so that I can keep confirmation of purchase for my own records.
 
 * Epic 4 Allauth User Stories
 ----------------------
 . As a new user, I want to be able to sign up easily and intuitively
+
 . As a returning user, I want to be able to log in easily.
+
 . As a user, I want to be able to log out of the site safely and easily.
-. As a developer, I want to ensure the forms are all the same style and look good on all devices
+
+. As a developer, I want to ensure the forms are all the same style and look good on all devices.
+
 . As a developer I want accounts to be secure with email confirmation.
 
 * Epic 5 - Profile Page
 ---------------------
-. As a user, I want to be able to access a profile page so that I can see my order details
-. As a user, I want to see what donations I have made in the past
+. As a user, I want to be able to access a profile page so that I can see my order details.
+
+. As a user, I want to see what donations I have made in the past.
+
 . As a user, I want to be able to update my details if I have to add a new address.
 
 * Epic 6 - Blog
 ----------------
-. As a site user I want to be able to see where the money from the site is being sent so I can feel good about my purchases
-. As a site owner I want to easily be able to add blog entries onto the Site
-. As a site owner I want to be able to edit my blog posts so that I can make corrections easily
+. As a site user I want to be able to see where the money from the site is being sent so I can feel good about my purchases.
+
+. As a site owner I want to easily be able to add blog entries onto the Site.
+
+. As a site owner I want to be able to edit my blog posts so that I can make corrections easily.
+
 . As a site owner I want to be able to delete blog posts as necessary.
+
 . As a site owner I want to be the only one who can create edit and delete blog posts.
 
 * Epic 7 - Reviews
@@ -366,23 +412,29 @@ Epic 3 User Stories
 Epic 7 User Stories
 ------------------
 . As a user, I would like to be able to read reviews about the site so I can decide if I want to use it
-. As a site user who is logged in, I would like to be able to leave my own review so that I can tell others about my experience
-. As a user, it would be nice to give my review a rating out of five for ease of reference
-. As a site owner it would be nice to be able to reply to reviews to show a personal touch
+
+. As a site user who is logged in, I would like to be able to leave my own review so that I can tell others about my experience.
+
+. As a user, it would be nice to give my review a rating out of five for ease of reference.
+
+. As a site owner it would be nice to be able to reply to reviews to show a personal touch.
 
 * Epic 8 Footer
 
 * Epic 8 User Stories
 ------------------
 . As the site owner, I want to share social media links and contact details
-. As the site owner, I want a nav bar for the site extras such as the blog, reviews and subscribe pages.
+
+. As the site owner, I want a nav bar for the site extras such as the blog, reviews.
 
 * Epic 9 - Documentation and styling
 
 * Epic 9 Tasks
 --------------
 . Complete Styling on all pages and all screen sizes
+
 . Complete Readme documentation
+
 . Complete testing and writeup
 
 * Scope
@@ -402,13 +454,14 @@ Navbar
 
 . Navigation Menu
 ------------------
-from the main top navigation bar, the user can log in or sign in. Once logged in they can access their profile page.
+. From the main top navigation bar, the user can log in or sign in. Once logged in they can access their profile page.
 
 . They can browse all the site products and check their shopping bag. They can also search the site using the search bar.
 
 * Home Page
 ------------
-. User Story - As a user I want the front page to be clear and self-explanatory so I know I am in the right place
+. User Story - As a user I want the front page to be clear and self-explanatory so I know I am in the right place.
+
 . The front page contains an image of a website. This gives the initial impression of stuff.
 
 . The front page also contains a tagline advising the user they can shop with a button to take them to either place on the website. This gives an immediate idea of what the website is for.
@@ -417,14 +470,16 @@ from the main top navigation bar, the user can log in or sign in. Once logged in
 
 * Footer
 ---------
-. User Story: As the site owner, I want to share social media links and contact details
-User Story: As the site owner I want a nav bar for the site extras such as the blog, reviews and subscribe pages
+. User Story: As the site owner, I want to share social media links and contact details.
+
+User Story: As the site owner I want a nav bar for the site extras such as the blog, reviews.
+
 . The Footer has been added to the bottom of the site and contains links to the site’s blog, reviews and donations form. Users can also subscribe to the site’s newsletter from here.
 
-. underneath the footer navigation bar users can see the contact email for the site and links to the social media pages.
+. Underneath the footer navigation bar users can see the contact email for the site and links to the social media pages.
 
 . Sign in, log in, log out
-
+---------
 . As a new user, I want to be able to sign up easily and intuitively
 
 . As a returning user, I want to be able to log in easily.
@@ -439,6 +494,7 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 * Database :
 ------------
 . The database was designed for the items to be tracked all the way through to sale and then recorded onto the user profile once sold.
+
 . I originally made lots of models for the different items in the items app. They were all joined to the main items database by the primary key. The aim of this was to make it easier to put search options on the products page for different colours, sizes, age ranges of products etc. Unfortunately, I did not have time to implement all the search options I wanted to but I have left the different models in, in case of future development.
 
 . I also added an option to add books to the items database but I decided not to add books to the site at this time. I left the model fields there though in case they can be used in the future.
@@ -453,20 +509,21 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 
 * Design :
 ----------
-. Colour Scheme
+> Colour Scheme
 ----------------
+
 ![alt image](media/colour.png)
 
-. I opted for a simple black white and grey colour scheme. I wanted the site to look clean and simple in its design
+. I opted for a simple black white and grey colour scheme. I wanted the site to look clean and simple in its design.
 
 * Typography :
 -------------
-. I used Alfa slab One for the logo font and Rubi for the body of the site
+. I used Alfa slab One for the logo font and Rubi for the body of the site.
 
-. I downloaded these from google fonts and imported them into the style sheet
+. I downloaded these from google fonts and imported them into the style sheet.
 
 * Imagery :
-------------------
+-----------
 . The front page image was taken from shakutlam website which is the best Indian drresses store selection. The item pictures are either the ones used in in the google website or they came from Amazon.
 
 * Technologies :
@@ -572,8 +629,11 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 . Shanaya => index.html
 ------------------
 . All Products
+
 . By Price => Arranges products by price
+
 . By Category => Arranges products by A-Z Category
+
 . All Products => Shows all products
 
 Women’s
@@ -721,7 +781,7 @@ I also updated the customer details which then changed on the checkout form the 
 
 . All of the social media icons correctly take to you their respective social media pages which open in a new page as expected.
 
-. The Facebook icon correctly went to the Laneys Loft Facebook page.
+. The Facebook icon correctly went to the Shanaya Facebook page.
 
 * Emails :
 --------
