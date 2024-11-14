@@ -228,7 +228,7 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 > Checkout
 ----------
 
-![alt image](media/checkout-models.py.png)
+![alt image](media/checkout.png)
 
 
 > Card Details
@@ -455,8 +455,11 @@ Epic 7 User Stories
 * Scope
 ------------------
 . Responsive Design
+
 . Home page with information about Shanaya
+
 . Ability to perform CRUD functionality on the Blog
+
 . Restricted features for not logged in as users and superusers
 
 Structure
@@ -651,7 +654,7 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 
 . All Products => Shows all products
 
-Women’s
+Women's
 ------
 Bridal Dress,Sarees,Suits,gowns,Indo-western and All clothing
 
