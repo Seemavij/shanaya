@@ -1,23 +1,36 @@
 ![alt image](media/responsive.png)
 
-My Favourite Engine is shanaya
-                       -------
-
-(https://github.com/Seemavij/shanaya)
 
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
 
 You can reach the live site here
-                  --------
+
+(https://github.com/Seemavij/shanaya)                
 
 * Table of Contents :
 ------------
+> User Experience (UX)
 
+> Features
+
+> Design
+
+> Planning
+
+> Technologies Used
+
+> Testing
+
+> Deployment
+
+> Credits
+![alt image](media/about-image.png)
 
 
 <!-- . Business-Model -->
-_________________________
-![alt image](media/about-us.png)
+
+
+![alt image](media/contact-us.png)
 
 <!--User Experience (UX)  -->
 
@@ -85,12 +98,12 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 
 > Site Goals
 ------------
+![alt image](media/bag-contexts.py.png)
+
 > Agile Planning
 ------------
 > Scope
 ------
-
-![alt image](media/bag_context.py.png)
 
 > Structure
 ------------
@@ -98,11 +111,13 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 ![alt image](media/bag-views.py.png)
 
 > Shanaya Features:
-------------
+-----------
+![alt image](media/blog-forms.py.png)
+
 > Home Page
 ----------
 
-![alt image](media/homepage.png)
+![alt image](media/background-image.png)
 
 > Footer
 --------
@@ -117,36 +132,36 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 > Item Detail
 ------------
 
-![alt image](media/item_detail.png)
+![alt image](media/item-detail.png)
 
 > Sign in, log in, log out
 
-![alt image](media/sign_in.png)
+![alt image](media/sign-in.png)
 
-![alt image](media/sign_out.png)
+![alt image](media/sign-out.png)
 
 > Shopping Bag
 ------------
 
-![alt image](media/order_summary.png)
+![alt image](media/order-summary.png)
 
 > Checkout Page
 ------------
 
-![alt image](media/checkout_models.py.png)
+![alt image](media/checkout-views.py.png)
 
 > Order Confirmation
 ------------
 
-![alt image](media/order_confirmation.png)
+![alt image](media/order-confirmation.png)
 
 > Profile Page
 ------------
 > Blog
 ------
-![alt image](media/blog_forms.py.png)
+![alt image](media/blog-forms.py.png)
 
-![alt image](media/blog_views.py.png)
+![alt image](media/blog-views.py.png)
 
 > Reviews
 ---------
@@ -203,17 +218,17 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 > Bag Icon
 ----------
 
-![alt image](media/checkout_models.py.png)
+![alt image](media/checkout-page-testing.png)
 
 > Shopping Bag
 --------------
-![alt image](media/checkout_views.py.png)
+![alt image](media/checkout-views.py.png)
 
 
 > Checkout
 ----------
 
-![alt image](media/checkout_models.py.png)
+![alt image](media/checkout-models.py.png)
 
 
 > Card Details
@@ -253,7 +268,7 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 ![alt image](media/contact-us-testing.png)
 
 ------------------ 
-![alt image](media/css.testing.png)
+![alt image](media/css-testing.png)
 
 ------------------
 ![alt image](media/cover-page-testing.png)
@@ -265,13 +280,13 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 > PP8 Validator
 ----------------
 
-![alt image](media/checkout_views.py.png)
+![alt image](media/checkout-views.py.png)
 
 
-![alt image](media/blog_models.py.png)
+![alt image](media/blog-models.py.png)
 
 
-![alt image](media/blog_admin.py.png)
+![alt image](media/blog-admin.py.png)
 
 > Javascript
 ------------
@@ -279,11 +294,11 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 > Lighthouse Report
 ------------------ 
 
-![alt image](media/lighthouse_testing.png)
+![alt image](media/lighthouse-testing.png)
 
 > Responsiveness
 ------------------ 
-![alt image](media/manaul_testing.png)
+![alt image](media/manaul-testing.png)
 
 > Bugs
 ------
@@ -489,7 +504,7 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 . As a developer, I want to ensure the forms are all the same style and look good on all devices
 
 
-![alt image](media/django_admin.png)
+![alt image](media/django-admin.png)
 
 * Database :
 ------------
@@ -534,7 +549,7 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 
 . CSS
 ------
-![alt image](media/base_css.png
+![alt image](media/base-css.png
 )
 >The website was styled using CSS in an external stylesheet
 
@@ -564,7 +579,7 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 
 . GitHub Wiki TOC generator
 ------------------
->I used this to enter my table of contents. -AWS Amazon
+>I used this to enter my table of contents. - AWS Amazon
 ------------------------------------------------------
 > Used to store pictures -Stripe
 ------------------
