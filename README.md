@@ -1,28 +1,105 @@
+<h1 align="center">Shanaya</h1>
+
+[View the live project here](https://shanaya-4953fd346fee.herokuapp.com/)  
+
+
+Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate and home delivery free on order £50
+
 ![alt image](media/responsive.png)
 
-<u>Shanaya</u>
+                
+## Index – Table of Contents
+* [User Experience (UX)](#user-experience-ux) 
+* [Features](#features)
+* [Design](#design)
+* [Planning](#planning)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
 
-<u>You can reach the live site here</u>
+## User Experience (UX)
+- All user stories can be seen here [Shanaya views](https://github.com/users/Seemavij/projects/10)
 
-(https://github.com/Seemavij/shanaya)                
+  <details>
+    <summary>Site User Stories</summary>
 
-*<u> Table of Contents</u>
-------------
-><u> User Experience (UX)</u>
+    - As a **site user** I want to be able to **register for an account** so that I can **have a personal account with my delivery details saved**
 
-> <u>Features</u>
+    - As a **site user** I want to be able to **login and logout** so that I can **access my profile info**
 
-> <u>Design</u>
+    - As a **site user** I want to be able to **receive an email confirmation after sign up** so that I can **verify my account registration was successful**
 
-><u>Planning</u>
+    - As a **site user** I want to be able to **have a personalised user profile** so that I can **view my order history and delivery information**
 
-> <u>Technologies</u>
+    - As a **site user** I want to be able to **leave a product review** so that I can **advise potential customers with my advise**
 
-> Testing
+    - As a **site user** I want to be able to **sign up to a newsletter** so that I can **get the latest news and offers**
 
-> Deployment
+    - As a **site user ** I want to be able to **unsubscribe for the newsletter ** so that I can **stop receiving emails**
+
+    - As a **site user** I can **return to Home after http 404 or 500 response** so that **I feel I am still working within the website and can navigate easily**
+
+  </details>
+
+  <details>
+    <summary>Shopper User Stories</summary>
+
+    - As a **Shopper** I want to be able to **view a list of products** so that I can **select a product to purchase**
+
+    - As a **shopper** I want to be able to **view individual products** so that I can **check price, description, images and sizes**
+
+    - As a **shopper** I want to be able to **view my total cost** so that I can **I don't spend too much**
+
+    - As a **shopper** I want to be able to **sort any list of products** so that I can **easily sort by price, best rated, etc**
+
+    - As a **shopper** I want to be able to **sort products into categories** so that I can **split products into categories to make it easier to find what I want**
+
+    - As a **shopper** I want to be able to **search a product by name** so that I can **easily find the product I am searching for**
+
+    - As a **shopper** I want to be able to **select a specific size** so that I can **I can make sure the product will suit my needs**
+
+    - As a **shopper** I want to be able to **view the items in my bag** so that I can **check out my bag contents and know exactly what I am buying**
+
+    - As a **shopper** I want to be able to **adjust the quantity of items in my bag** so that I can **easily make changes**
+
+    - As a **shopper** I want to be able to **enter my card details** so that I can **make a purchase**
+
+    - As a **shopper** I want to be able to **view my order after I complete a purchase** so that I can **verify I have not made any mistakes**
+
+    - As a **shopper** I want to be able to **receive an email confirmation after making a purchase** so that I can **keep the confirmation for any future needs**
+
+    - As a **shopper** I want to be able to **contact Shanaya** so that I can **get in touch regarding a product/ issue, etc**
+
+  </details>
+
+
+  <details>
+    <summary>Admin Stories</summary>
+
+    - As an **admin** I want to be able to **add a product** so that I can **I can add new products my store**
+
+    - As an **admin** I want to be able to **edit a product** so that I can **make changes to any product**
+
+    - As an **admin** I want to be able to **delete a product** so that I can **remove an item that is no longer for sale**
+
+    - As an **admin** I want to be able to **view all messages from the contact form** so that I can **communicate with customers in a timely manner**
+
+    - As an **admin** I want to be able to **view all messages from the contact form** so that I can **communicate with customers in a timely manner**
+
+    - As an **admin** I want to be able to **view a list of subscribers in my admin** so that I can **see the amount of subscribers we have**
+
+    - As an **admin** I want to be able to **export a CSV list of my subscribers** so that I can **can use them in marketing campaigns using tools like Mail Chimp**
+
+## Features
+
+### Existing Features
+
+#### - Header
+
+The header features the Shanaya logo, navigation for products in the centre and three icons to the right, a search icon, an account icon and a bag icon.
+
 
 > Credits
 ![alt image](media/about-image.png)
