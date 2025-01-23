@@ -1,23 +1,24 @@
 ![alt image](media/responsive.png)
 
+<u>Shanaya</u>
 
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate.
 
-You can reach the live site here
+<u>You can reach the live site here</u>
 
 (https://github.com/Seemavij/shanaya)                
 
-* Table of Contents :
+*<u> Table of Contents</u>
 ------------
-> User Experience (UX)
+><u> User Experience (UX)</u>
 
-> Features
+> <u>Features</u>
 
-> Design
+> <u>Design</u>
 
-> Planning
+><u>Planning</u>
 
-> Technologies Used
+> <u>Technologies</u>
 
 > Testing
 
@@ -35,11 +36,11 @@ You can reach the live site here
 <!--User Experience (UX)  -->
 
 User stories
-------------
+
 All user stories can be seen here Shanaya
 
 * Site User Stories
-------------
+
 . As a site user I want to be able to register for an account so that I can have a personal account with my delivery details saved
 
 . As a site user I want to be able to login and logout so that I can access my profile info
