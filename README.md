@@ -5,6 +5,8 @@
 
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate and home delivery free on order £50
 
+![Am I responsive](documentation/images/am-i%20-responsive.png)
+
 ![alt image](media/responsive.png)
 
                 
@@ -100,13 +102,489 @@ Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men s
 
 The header features the Shanaya logo, navigation for products in the centre and three icons to the right, a search icon, an account icon and a bag icon.
 
+#### - Search Icon and Overlay
 
-> Credits
+The search icon when clicked brings up a search input below, this can be used to search the site for all products. An autofocus was added so when the search icon is clicked the user's type is on the search input.
+
+![Search Icon and Overlay](documentation/images/search-overlay.png)
+
+#### Account Dropdown
+
+When clicked the account icon will display a dropdown list. Depending on the logged in status of the site user you will see different links. When the user is logged out they will see 'Register', 'Login' and 'Contact'. If the user is logged in they will see 'My Profile', 'Logout' and 'Contact'. Finally, if an admin user is logged in they will see 'Product Managment', 'My Profile', 'Logout' and 'Contact'.
+
+![Account Dropdown](documentation/images/account-dropdown.png)
+
+#### Bag Notification
+
+If the user currently has nothing in their bag they will just see a bag icon. If the user adds a product or products to their bag a green circle/ bubble will appear with the number of items in their bag.
+
+![Bag Notification](documentation/images/header-bag.png)
+
+#### Hero Section
+
+The hero section is quite simple featuring an illustration of an ecommerce style image to the right and an a site intro on the left. The hero section also features a button to 'Shop Now' that takes the user to the all products page.
+
+![Hero Section](documentation/images/hero-section.png)
+
+#### Product Categories
+
+Below the hero section is a Product Categories section. This section features five cards with an image. Each card will grow on hover and when clicked will take the user to that product category.
+
+![Product Categories](documentation/images/product-categories.png)
+
+#### About Us Section
+
+Next we have the about us section. Again,Shanaya is a shared experience for anyone who steps on our website. Our collections take inspiration from the philosophies of different parts of UK to create an outfit that goes beyond a moment to become a significant memory for you.
+
+![About Us Section](documentation/images/about-us.png)
+
+#### Our Client Carousel
+
+At the bottom of the homepage is a carousel style section featuring some of Shanaya's previous clients. This has been animated to automatically scroll across the screen.
+
+![Our Client Carousel](media/contact-us.png)
+
+#### Footer
+
+Finally the homepage features a footer. This footer is split into four sections. Firstly, the address section, then the products and account links. The fourth part of the footer features the Shanaya logo, a link to sign up to the newsletter below that and then social links.
+
+There is also a link to the privacy policy at the bottom.
+
+![Footer](documentation/images/footer.png)
+
+
+#### All Products Page
+
+The all products page displays every product on the store as cards in rows of max 3. This page has a sort by field that allows a user to sort by price, name, rating and category. The produuct cards display the product image, title, price, rating and category below it.
+
+The rating shown is an average of all user ratings for that product.
+
+If the user is an admin they will see two icon buttons to edit and delete a product.
+
+![All Products Page](documentation/images/product-page.png)
+
 ![alt image](media/about-image.png)
 
+#### Edit Product
 
-<!-- . Business-Model -->
+This feature is only available to admin users, when the edit button is clicked whether from the products page or product detail page it will take you to the edit product page.
 
+An alert displays to notify the admin that they are currently editing a product. The edit product page features a rich text editor thanks to django-ckeditor.
+
+![Edit Product](documentation/images/edit-product.png)
+
+#### Delete Product
+
+When the delete button is clicked the admin user will have a modal appear to confirm if the admin wants to delete the product.
+
+![Delete Product](documentation/images/delete-product.png)
+
+
+#### Product Detail Page
+
+The product detail page features an image to the left and then on the right there is the product title, price, rating, description, the quantity and then two buttons 'Keep Shopping', that will take the user back to the products page. The 'Add to Bag' button will add the product to the user's bag.
+
+The rating shown is an average of all user ratings for that product.
+
+If the user is an admin they will again see two icon buttons to edit and delete a product.
+
+![Product Detail Page](documentation/images/product-page.png)
+
+User Added to Bag:
+
+![User Added to Bag](documentation/images/add-to-bag.png)
+
+If the product has sizes a sizes option will also appear on the product detail page.
+
+![Product Sizes](documentation/images/product-with-sizes.png)
+
+#### Product Reviews
+
+Below the product container on the product detail page is the reviews section. When a user is signed in a product review form will show on the left side. The user reviews are then displayed on the right. These reviews have the review title, body, the user it was left by and the rating they gave.
+
+Only the user that made the review or an admin has the ability to edit or delete it.
+
+![Product Reviews](documentation/images/product-reviews)
+
+#### Edit Review Page
+
+When the user clicks the edit button they are taken to a page with the edit form prefilled with their previous details. At the bottom there is two buttons. The first is to 'Delete Review', this will again take the user to a modal again to confirm delete. Then there is an 'Update Review' button that updates the review.
+
+![Edit Review Page](documentation/images/edit-review.png)
+
+#### Add Product
+
+As well as admin users having the ability to add products in the django admin they can also add them in the front end site. This page also features a rich text editor. 
+
+![Add Product](documentation/images/add-product.png)
+
+#### Bag Page
+
+When the user is ready to progress on to the bag page they can either click the 'Go to Secure Checkout' button on the pop up that appears after adding an item to the bag or by clicking the bag icon.
+
+The bag page features each product as displayed as a line item. The user can edit quantites or remove items from their bag with the buttons displayed.
+
+![Bag Page](documentation/images/bag.png)
+
+#### Checkout Page
+
+The checkout page has a form to fill out the user's delivery details and card details. On the right is an order summary with the total cost.
+
+![Checkout Page](documentation/images/checkout.png)
+
+#### Profile Page
+
+On the my profile page the logged in user can see their saved delivery details to the left and their order history on the right. Clicking the green highlighted order number will take the user to the order confirmation history with an alert that they are viewing an old order history.
+
+![Profile Page](documentation/images/profile-page.png)
+
+
+#### Contact Page
+
+The contact page has an embedded Google Map on the left of the location of Shanaya. Next to it is a contact form with the option to select a product if their query relates to a particular product.
+
+![Contact Page](documentation/images/contact-page.png)
+
+#### Newsletter Page
+
+The newsletter sign up page features a simple input field for users to type their email address and be signed up. When submitted the user will get an alert saying that they are now signed up and receive a confirmation email.
+
+![Newsletter Page](documentation/images/newsletter.png)
+
+#### Unsubscribe Page
+
+Near identical to the sign up page, the unsubscribe page has a single input field to delete their email address from our database. When submitted the user will get an alert saying that they are now unsubsribed and receive a confirmation email.
+
+![Unsubscribe Page](documentation/images/unsubscribe.png)
+
+#### Unsubscribe Page
+
+Near identical to the sign up page, the unsubscribe page has a single input field to delete their email address from our database. When submitted the user will get an alert saying that they are now unsubsribed and receive a confirmation email.
+
+![Unsubscribe Page](documentation/images/unsubscribe.png)
+
+#### Custom 404 Page
+
+Finally, I have set up a custom 404 error page (as well as 403, 405 and 500). This presents the user with a relevant image and a link to take them back to the homepage.
+
+![Custom 404 Page](documentation/images/404.png)
+
+#### SEO and Web Marketing
+
+##### __SEO__
+
+I have taken several steps to help with the sites SEO:
+
+1. All images have descriptive alt tags.
+2. Meta desciptions are generated for each product using their product description.
+3. Meta keywords for homepage of site.
+4. SEO friendly description and slogan.
+
+##### __Email Marketing__
+
+1. A newsletter has been set up to capture emails.
+2. This can easily be exported to a CSV file from either the front-end or back-end.
+3. When exported Shanaya can use their email marketing service, Campaign Monitor.
+
+##### __Social Media__
+
+1. Although less useful for B2B products, A Facebook page for Shanaya exists.
+
+![Shanaya Facebook](documentation/images/Shanaya-facebook.png)
+
+Link here: [Shanaya Facebook Page](https://www.facebook.com/Shanayagroupire/)
+
+Shanaya's main audience can be found on LinkedIn, as they predominantly operate in the B2B space.
+
+Link here: [Shanaya LinkedIn Page](https://www.linkedin.com/company/3483243)
+
+### Features which could be implemented in the future
+
+Below are some of the features that I will be working on over the next few weeks.
+
+- __Draft Orders__
+
+Due to the nature of what Shanaya sell many of their customers do not know exactly what product they need. Often times customers contact them about this. On Shopify the sales person can make create a draft order that is then sent to the customer directly to pay.
+
+- __Order Collection__
+
+A few Shanaya customers would prefer to collect their products from the Shanaya factory, this a feature Shanaya can offer on Shopify that I would like to implement in the future.
+
+- __Stock/ Inventory Management__
+
+Another feature that I would like to implement in the future is an option to import an inventory file for product management.
+
+- __Product Gallery__
+
+Next I would like to have a product gallery on the product detail page. 
+
+- __Shipping Costs__
+
+With the products that Shanaya offer varying so much in size and weight I would like to have a feature that an admin can set a product's shipping cost.
+
+Another feature I will be implementing will be the ability to have a featured product in any given category like in my wireframes.
+
+## Design
+
+### Wireframes
+
+Below are all the wireframes that I created for this project:
+
+<details>
+    <summary>Home Page</summary>
+
+![Home Page Wireframe](documentation/images/wireframe-home.png)
+
+
+  </details>
+
+
+<details>
+    <summary>Products Page</summary>
+
+![Produts Wireframe](documentation/images/wireframe-products.png)
+
+
+  </details>
+
+  <details>
+    <summary>Product Detail Page</summary>
+
+![Product Detail Wireframe](documentation/images/wireframe-product-detail.png)
+
+
+
+  </details>
+
+<details>
+    <summary>Mobile Views</summary>
+
+![Mobile Views Wireframe](documentation/images/wireframe-mobile.png)
+
+
+
+  </details>
+
+  ### Entity-Relationship diagram for DBMS
+
+Below is an image of my entity-relationship diagrams:
+
+## Planning
+
+For this project I used Github Projects as an agile tool. I created user stories and moved them along the progression boards as I was at different stages.
+
+Link can be found here: [Shanaya Github Project](https://github.com/users/Seemavij/projects/10)
+
+## Technologies Used
+
+### Languages Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Python
+
+
+### Frameworks, Libraries & Programs Used  
+
+-   [Google Fonts](https://fonts.google.com/) used for the Poppins and Open Sans fonts.
+-   [Font Awesome](https://fontawesome.com/) was used to add icons for aesthetic and UX purposes.
+-   [Git](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+-   [GitHub](https://github.com/) is used as the respository for the project code after being pushed from Git. In addition, for this project GitHub was used for the agile development aspect through the use of User Stories (GitHub Issues) and tracking them on a Kanban board.
+-   [Django](https://www.djangoproject.com/) was used as the framework to support rapid and secure development of the application.
+-   [Bootstrap](https://getbootstrap.com/) was used to build responsive web pages.
+-   [Django allauth](https://django-allauth.readthedocs.io/en/latest/index.html) used for account registration and authentication (version 0.41.0 installed because of project dependencies).
+-   [Pillow](https://pillow.readthedocs.io/en/stable/index.html) - Python Imaging Library used for image handling.
+-   [Django ckeditor](https://pypi.org/project/django-ckeditor/) - Renders rich text editor for various forms.
+-   [jquery library](https://code.jquery.com/jquery-3.4.1.min.js) - for various pieces of functionality including adding and removing items from the shopping cart and handling the increment and decrement of the quantity control.
+-   [Django crispy forms](https://django-crispy-forms.readthedocs.io/en/latest/) used to simplify form rendering.
+-   [Django import export](https://django-import-export.readthedocs.io/en/latest/) used to export list of newsletter subscribers.
+-   [Stripe](https://js.stripe.com/v3/) used for secure payments (referenced in base.html).
+-   [Stripe install library](https://pypi.org/project/stripe/) used for secure payments.
+-   [Django Countries](https://pypi.org/project/django-countries/) used on checkout page to pass valid country code to Stripe.
+-   [Gunicorn](https://gunicorn.org/) was used as the Web Server to run Django on Heroku.
+-   [dj_database_url](https://pypi.org/project/dj-database-url/) library used to allow database urls to connect to the postgres db.
+-   [psycopg2](https://pypi.org/project/psycopg2/) database adapter used to support the connection to the postgres db.
+-   [Amazon S3](https://aws.amazon.com/s3/) used to store static files and images.
+-   [Boto3](https://pypi.org/project/boto3/) the Amazon Web Services (AWS) Software Development Kit (SDK) for Python.
+-   [django_storages](https://django-storages.readthedocs.io/en/latest/) used to connect django to S3.
+-   [Heroku](https://www.heroku.com) - used to host the deployed application.
+-   [Heroku Postgres](https://www.heroku.com/postgres) - SQL database service provided by Heroku used to store models and data.
+-   [Balsamiq](https://balsamiq.com/) was used to create the wireframes during the design process.
+-   [Grammarly](https://app.grammarly.com/) was used to proof the content of my project and README.
+-   [Beautifier.io](https://beautifier.io/) was used to beautify html and css.
+-   [W3 HTML Validator](https://validator.w3.org/nu/) was used to validate HTML.
+-   [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
+-   __Adobe Photoshop__ was used to create the images for category products.
+
+
+## Testing
+### Validator Testing 
+
+[W3 HTML Validator](https://validator.w3.org/nu/) found a few issues that I am going to classify as bugs.
+
+1. Products page found an error Duplicate ID exampleModalLabel. 
+- This is due to me having a modal to confirm that the user wants to delete a product or review. The modal has to be in my for loop for it to work.
+
+2. Edit product page found multiple errors.
+- These errors are being caused by a django installation, ckeditor and not due to my code.
+
+3. Product detail page found multiple errors.
+- These are again being caused by django-ckeditor.
+
+__Pages Checked__
+
+- Home Page
+- Products Page
+- Product Detail Page
+- Add Product Page
+- Edit Product Page
+- Edit Review Page
+- Profile Page
+- Sign Up Page
+- Unsubscribe Page
+- Contact Page
+- Bag Page
+- Checkout Page
+- Checkout Success Page
+- Sign Up Page
+- Login Page
+- Logout Page
+- 404 Page
+
+[W3 CSS Validator](https://jigsaw.w3.org/css-validator/) found no issues.
+
+All code has been beautified with [Beautifier.io](https://beautifier.io/)
+
+All code has been made PEP8 compliant.
+
+### Manual Testing Test Cases and Results 
+
+Below are the series of user testing that I carried out on my site.
+
+![Shanaya User Story Testing](documentation/images/user-story-testing.png)
+
+As well as the user story testing conducted I clicked every link and button on both desktop and mobile to confirm they are all functioning as they should.
+
+### Known bugs
+
+I had a an issue with my webhooks not working and confirmation emails subsequently not being sent. To fix this issue I had to copy over the entirety of Boutique Ado's checkout code. I then could not migrate these model changes to Heroku. This was eventually fixed but I thought that I should make note of it just in case.
+
+## Deployment
+
+<details>
+    <summary>Cloning Git Repository</summary>
+
+- Go here: https://github.com/Seemavij/shanaya
+- Click the 'Code' button to the right of the screen and click HTTPS and copy the link.
+- Open a Git Bash terminal and go to the directory where you want the clone.
+- Type 'git clone' then paste in the copied url, hit enter and the cloning should start.
+- Type ' pip install -r requirements.txt'.
+- Set DEBUG=True in the settings.py file.
+- Any changes made to your local clone can be pushed by 'git add .' then 'git commit -m "message" and finally 'git push'.
+
+  </details>
+
+ <details>
+    <summary>Create App on Heroku</summary>
+
+- Login to [Heroku](https://www.heroku.com/) or create an account.
+- On Heroku dashboard, click 'Create New App', enter a name and choose your region. Click 'Create App'
+- Click the 'Resources' tab.
+- In the Add-ons search bar enter 'Postgres' and select 'Heroku Postgres' from the list, click the 'Submit Order Form' button on the pop-up dialog.
+- Then go to 'Settings', scroll down to 'Reveal Config Vars'.
+- Add a confif var DISABLE_COLLECTSTATIC, value: 1.
+- Add SECRET_KEY, value: any random line of charaters and numbers.
+- Go back to Gitpod, settings.py and add:
+- if 'DATABASE_URL' in os.environ:
+
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+
+SECRET_KEY = os.environ.get('SECRET_KEY')
+- In your Gitpod terminal type, 'python3 manage.py migrate'.
+- Then 'python3 manage.py createsuperuser'.
+- Set DEBUG to False in settings.py.
+- Commit and push to Github.
+- Add SECRET_KEY and DATABASE_URL in env.py. 
+
+  </details>
+
+<details>
+    <summary>Connecting Heroku to Github</summary>
+
+- Go to Heroku and go to the 'Deploy' tab.
+- Select Github, login to Github and find repo.
+- Scroll down and choose 'Enable Automatic Deployment'
+
+  </details> 
+
+ # Bucket Config
+    AWS_STORAGE_BUCKET_NAME = "shanaya"
+    AWS_S3_REGION_NAME = "eu-west-1"
+    AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
+    AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
+  - Go to the S3 dashboard and create a folder called media in the new bucket.  Specify grant public-read access on the folder and tick the checkbox to confirm.
+  - Add the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY config vars to heroku using the values from the downloaded cvs.
+  - Add USE_AWS = True to the Heroku config vars.
+  - Remove DISABLE_COLLECTSTATIC from config vars.
+
+  </details>
+
+ <details>
+
+    <summary>Add Stripe Config Vars and Webhooks</summary>
+
+- Create Stripe account.
+- Add STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY to the Heroku config vars, you'll find these on your Stripe developer dashboard.
+- Go to Stripe dashboard go to the Developers, Webhooks, click add endpoint, use the url of your Heroku application with '/checkout/wh/' added to the end of the url string.  Select all events.
+- When the endpoint is set up get your signing secret from the webhook add this value as a Heroku config var called STRIPE_WH_SECRET.
+
+  </details>
+
+  ## Credits 
+
+### Code 
+
+- I created the bulk of this project following the 'Boutique Ado' walkthrough project and had to copy the entire checkout section, which is documented in my bug errors.
+- A lot of my newsletter code came from here:
+[Newsletter Code 1](https://www.youtube.com/watch?v=UtV1u0pejKs&ab_channel=MasterCodeOnline) |
+[Newsletter Code 2](https://www.youtube.com/watch?v=_QPuX-HD8wA&ab_channel=CodingIsThinking)
+- A lot of the import/ export came from here:
+[Export Code](https://python.plainenglish.io/the-easy-way-to-import-export-data-from-django-admin-fe17ecd012fb) |
+[Review Stars Code](https://www.youtube.com/watch?v=gDtsAWMA3Jo&ab_channel=RathanKumar)
+- The icon carousel came from tiktok user @tomisloading
+
+### Content 
+
+- Much of the content for products came from [Shanaya](https://shanaya.ie/). Which I used as my base idea but with the idea of improving as I went.
+- The about us content came directly from [Shanaya](https://www.shanaya.ie/)
+- My hero image and many of the error page illustrations came from [Many Pixels](https://www.manypixels.co/)
+- 
+
+### Acknowledgments
+
+- Thank you to my mentor for his help and feedback throughout this project.
+- Thanks to the Code Institute tutors that also helped me in this project.
 
 ![alt image](media/contact-us.png)
 
@@ -174,17 +652,23 @@ As an admin I want to be able to view all messages from the contact form so that
 As an admin I want to be able to view a list of subscribers in my admin so that I can see the amount of subscribers we have
 
 
-> Site Goals
+## Features
+
+### Existing Features
+
+#### - Header
+
+The header features the Chemstore logo, navigation for products in the centre and three icons to the right, a search icon, an account icon and a bag icon.
+
+![Header](documentation/images/header.png)
+
+
 ------------
 ![alt image](media/bag-contexts.py.png)
 
-> Agile Planning
-------------
-> Scope
-------
 
-> Structure
-------------
+
+
 
 ![alt image](media/bag-views.py.png)
 
@@ -192,156 +676,98 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 -----------
 ![alt image](media/blog-forms.py.png)
 
-> Home Page
-----------
+
 
 ![alt image](media/background-image.png)
 
-> Footer
---------
+
+
 
 ![alt image](media/footer.png)
 
-> Browse Items
-------------
+
+
 
 ![alt image](media/browser.png)
 
-> Item Detail
-------------
+
+
 
 ![alt image](media/item-detail.png)
 
-> Sign in, log in, log out
+
 
 ![alt image](media/sign-in.png)
 
 ![alt image](media/sign-out.png)
 
-> Shopping Bag
-------------
+
 
 ![alt image](media/order-summary.png)
 
-> Checkout Page
-------------
+
+
 
 ![alt image](media/checkout-views.py.png)
 
-> Order Confirmation
-------------
+
+
 
 ![alt image](media/order-confirmation.png)
 
-> Profile Page
-------------
-> Blog
-------
+
+
 ![alt image](media/blog-forms.py.png)
 
 ![alt image](media/blog-views.py.png)
 
-> Reviews
----------
-> Subscribe
----------
-> Keywords
----------
-> Wireframes
------------
+
+
+ Wireframes
+
 ![alt text](/media/wireframe.png)
 
-> Database
------------
-> Security
-----------
+
 ![alt text](/media/colour.png)
 
-> Design
---------
-> Colour Scheme
-------------
-> Typography
----------
-> Imagery
---------
-> Technologies
------------
->  External Python Modules
-------------
-> Testing
----------
 
-> Functional Testing
 
 ![alt image](media/order-checkout.png)
 
-> Navigation Links
-------------
->  Products page
---------------
 
-> Product Details page
------------------- 
-> Bridal Wear
--------------
-> Sarees
---------
-> Suits
--------
-> cod_set
----------
-> Dresses
----------
-> Bag Icon
-----------
+
 
 ![alt image](media/checkout-page-testing.png)
 
-> Shopping Bag
---------------
+
+
 ![alt image](media/checkout-views.py.png)
 
 
-> Checkout
-----------
+
+
 
 ![alt image](media/checkout.png)
 
 
-> Card Details
------------
+
+
 
 ![alt image](media/order-checkout.png)
 
-> Order Confirmation
------------------- 
+
 
 ![alt image](media/order-confirmation.png)
 
-> Stripe
---------
+
 
 ![alt image](media/stripe.png)
 
-> Profile Page
---------------
-> Footer
---------
-> Blog
-------
-> Reviews
-----------
+
 
 ![alt image](media/review.png)
 
-> Subscribe
------------
-> Emails
---------
-> Accessibility
------------------- 
-> Validator Testing
+
 
 ![alt image](media/contact-us-testing.png)
 
@@ -354,9 +780,7 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 ------------------
 ![alt image](media/checkout-page-testing.png)
 
-------------------
-> PP8 Validator
-----------------
+
 
 ![alt image](media/checkout-views.py.png)
 
@@ -366,59 +790,28 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 
 ![alt image](media/blog-admin.py.png)
 
-> Javascript
-------------
 
-> Lighthouse Report
------------------- 
 
 ![alt image](media/lighthouse-testing.png)
 
-> Responsiveness
------------------- 
+
+
 ![alt image](media/manaul-testing.png)
 
 > Bugs
-------
+
 As well as the user story testing conducted I clicked every link and button on both desktop and mobile to confirm they are all functioning as they should but found one bug on Signup page.
 
 . Tested all page getting bug in Sign up page after Validation.
 
-SignUp Page :
-------------
-. This is a  Django allauth code.
 
-. Getting Error on SignUp Page when doing Validation Testing Signup page shows one Error <ul> this is Bootstrap error I tried so many things and Tutor advised because of 
- Bootstrap version this error appear if I have to fix this change version of package to lower than 0.57 or otherwise declare than in Read me I am getting this Bug in Bootstrap Version.
 
-> Deployment
-------------
-> Cloning Git Repository
------------------- 
->Create App on Heroku
------------------- 
->Connecting Heroku to Github
------------------- 
->Set up Amazon AWS S3 Bucket
------------------- 
->Details
----------
-> References
-------------
-> Acknowledgements
------------------- 
 
-Table of contents generated with markdown-toc
 
-* Business Model :
------------------- 
-Shanaya is a B2C business. The business of Shanaya is to sell Men and Women clothes to the public and sell them online on a resonable price. Shanaya sell Bridal & Groom Dresses and other women dresses. We advertise on Facebook and other social Media platform and users can share the page to spread the word about Shanaya.
 
-* User-Experience-Design :
---------------------- 
-Site Goals
---------
-The site is aimed at anyone they can browse and see over new and all collection at very easily at there comfort zone, and anyone who wants to buy beautifull items. Without signing in the user can browse the online store and buy their items. They can also look at the site blog to see that are being helped by the site. They can log in to see a log of the items they have bought and leave a review of the site. They can also save their details for future purchases.
+
+
+
 
 * Agile Planning :
 ------------------ 
@@ -540,12 +933,8 @@ Epic 7 User Stories
 
 . Restricted features for not logged in as users and superusers
 
-Structure
-----------
-Shanaya Features :
-------------------
-Navbar
--------
+
+
 . user story - As a user, I want to be able to navigate easily around the site from any device
 
 . Navigation Menu
@@ -587,203 +976,13 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 
 ![alt image](media/django-admin.png)
 
-* Database :
-------------
-. The database was designed for the items to be tracked all the way through to sale and then recorded onto the user profile once sold.
-
-. I originally made lots of models for the different items in the items app. They were all joined to the main items database by the primary key. The aim of this was to make it easier to put search options on the products page for different colours, sizes, age ranges of products etc. Unfortunately, I did not have time to implement all the search options I wanted to but I have left the different models in, in case of future development.
-
-. I also added an option to add books to the items database but I decided not to add books to the site at this time. I left the model fields there though in case they can be used in the future.
-
-. The items are connected to the user and shopping bag by primary key and are then stored on the user’s profile as past orders.
-
-* Security :
--------------
-. If statements were used to ensure that buttons that were only for the superuser were hidden from everyone else. The UserPassesTest Mixin was used to make sure the superuser is signed in to complete the blog. And to ensure that the create, edit and delete forms cannot be reached via the url.
-
-. Environment variables were stored in an env.py file for security purposes to ensure no secret keys, api keys or sensitive information were added to the repository. These variables were added to Heroku config vars within the project
-
-* Design :
-----------
-> Colour Scheme
-----------------
 
 ![alt image](media/colour.png)
 
-. I opted for a simple black white and grey colour scheme. I wanted the site to look clean and simple in its design.
 
-* Typography :
--------------
-. I used Alfa slab One for the logo font and Rubi for the body of the site.
+![alt image](media/base-css.png)
 
-. I downloaded these from google fonts and imported them into the style sheet.
 
-* Imagery :
------------
-. The front page image was taken from shakutlam website which is the best Indian drresses store selection. The item pictures are either the ones used in in the google website or they came from Amazon.
-
-* Technologies :
------------------
-. HTML
--------
->The structure of the site was made using HTML
-
-. CSS
-------
-![alt image](media/base-css.png
-)
->The website was styled using CSS in an external stylesheet
-
-. Python
---------
-> Python was the main programming language used within the django app
-
-. Github
---------
->Source code was hosted in Github
-
-. Git
------
->Git was used to write, commit and push code during development
-
-.Font Awesome
--------------
->Various Font Awesome icons were used throughout the site
-
-.Balsamiq
----------
->Balsamiq wireframes were used to plan
-
-.javascript
------------
->Used throughout the site
-
-. GitHub Wiki TOC generator
-------------------
->I used this to enter my table of contents. - AWS Amazon
-------------------------------------------------------
-> Used to store pictures -Stripe
-------------------
-> I used stripe payment system
-
-* External Python Modules
-------------------
-> asgiref==3.8.1
-
-> boto3==1.34.149
-
-> botocore==1.34.149
-
-> chardet==3.0.4
-
-> dj-database-url==0.5.0
-
-> Django==3.2.25
-
-> django-allauth==0.63.6
-
-> django-countries==7.2.1
-
-> django-crispy-forms==1.14.0
-
-> django-storages==1.14.4
-
-> django-summernote==0.8.20.0
-
-> gunicorn==20.1.0
-
-> idna==2.8
-
-> jmespath==1.0.1
-
-> oauthlib==3.2.2
-
-> pillow==10.4.0
-
-> psycopg2==2.9.9
-
-> python3-openid==3.2.0
-
-> pytz==2024.1
-
-> requests-oauthlib==2.0.0
-
-> s3transfer==0.10.2
-
-> sqlparse==0.5.1
-
-> stripe==10.4.0
-
-* Testing :
-
-* Functional Testing
-
-* Navigation Links
-
-. Testing was performed on on all navigation links throughout the site. I achieved this by clicking on each link to ensure it went to the correct place.
-
-. Shanaya => index.html
-------------------
-. All Products
-
-. By Price => Arranges products by price
-
-. By Category => Arranges products by A-Z Category
-
-. All Products => Shows all products
-
-Women's
-------
-Bridal Dress,Sarees,Suits,gowns,Indo-western and All clothing
-
-All these filter women’s cloths by the desired clothing type
-
-Men’s
------
-
-clothes all filtered by the correct clothing types
-
-Sherwani and Men's Suit all filter by the correct types
-
-My Account
-----------
-My Profile => Profile page
-
-Log out (if logged in) => to log out page
-
-(if not logged in) Sign in => to sign in page
-
-(if not logged in) Register => to Registration page
-
-Products page
---------------
-Picture => Product detail page
-
-Sort Box => All items in the sort box were tested and sort items accordingly
-Men’s
-
-clothes all filtered by the correct clothing types
-
-Kids’ clothes and toys all filter by the correct types
-
-My Account
------------
-My Profile => Profile page
-
-Log out (if logged in) => to log out page
-
-(if not logged in) Sign in => to sign in page
-
-(if not logged in) Register => to Registration page
-
-Products page
-------------
-Picture => Product detail page
-
-Sort Box => All items in the sort box were tested and sort items accordingly
-
-Product Details page
-------------------
 Keep Shopping => goes back to the products page
 
 Add to bag => correctly adds the item to the user’s bag this shows a success toast with the bag contents and the bag total cost shows up under the shopping bag icon.
@@ -922,103 +1121,5 @@ tag that was used incorrectly inside a .
 . I did this by using developer tools and re-sizing the website to down to 320px.
 
 . As expected, there were no responsiveness issues.
-
-* Bugs :
------
-. Error when migration change in checkout model. File "/workspace/.pip-modules/lib/python3.8/site-packages/django/db/backends/dummy/base.py", line 20, in complain raise ImproperlyConfigured("settings.DATABASES is improperly configured. " django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
-
-. I looked at the error and went to the database section in settings. I found a typo in the Databases and updated this to fix the problem
-
-. Error on the product form. If a picture is not input correctly, it causes an error on the blog list page. The only way to get back in is to go into the admin panel and delete the blog post.
-
-. After some investigation, I found that my placeholder image was not working because I had neglected to put the placeholder name in the model. Once I did this the bug was fixed.
-
-. Error the bag information shows when the blog is being updated. I have decided to leave this bug. I have run out of time and realistically the site owner probably won’t have anything in her bag anyway.
-
-. An error occurred when I added the UserPassesTest mixin to the blog create, edit and delete views. This caused an error page when I logged into them. I fixed this by looking at the documentation and adding a def text_func function that checked the user had the correct email address.
-
-
-* Deployment 
------------
-.To deploy my site to Heroku I followed the following steps
-
-. Navigate to heroku and create/log into account
-
-. Click the new button in the top right corner
-
-. Select create new app
-
-. Enter app name (Shanaya)
--------------------------
-. Select region and click create app (europe)
-
-. Click the resources tab and search for Heroku Postgres
-
-. Select hobby dev and continue
-
-. Go to the settings tab and then click reveal config vars
-
-. Make sure the correct config bars are added
-
-. AWS_ACCESS_KEY_ID (for access to AWS)
-
-. AWS_SECRET_ACCESS_KEY (for access to AWS)
-
-. SECRET_KEY: (Your secret key)
-
-. DATABASE_URL: (This should already exist with add on of postgres)
-
-. EMAIL_HOST_USER: (email address)
-
-. EMAIL_HOST_PASS: (email app password)
-
-. STRIPE_PUBLIC_KEY (Stripes public key)
-
-. STRIPE_SECRET_KEY (Stripes secret key)
-
-. STRIPE_WH_SECRET (Stripes Web Hook secret key)
-
-. USE_AWS (set to True to use AWS)
-
-. Click the deploy tab
-------------------
-. Scroll down to Connect to GitHub and sign in / authorize when prompted
-
-. In the search box, find the repository you want to deploy and click connect
-
-. Scroll down to Manual deploy and choose the main branch
-
-. than connect to repositry
-
-. Click Deploy
---------------
-. The app should now be deployed
-
-* Credits
-----------
->I created the bulk of this project following the 'Boutique Ado' walkthrough project and had to copy the entire checkout section, which is documented in my bug errors.
-
->>A lot of the import/ export came from here: Export Code | Review Stars Code
-* References
-
-. I used the django documentation
-
-. I used the bootstrap documentation
-
-. I used slack overflow
-
-. I used CI slack community
-
-. I followed the Boutique Ado walkthrough and used it as a base for the site.
-
-* Acknowledgements
-------------------
-. I want to thank
-----------------
-. My mentor & Tutor for all her guidance
-
-. The wonderful slack community
-
-Thanks for all customers for their support.
 
 ![alt image](media/about-us.png)
