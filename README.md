@@ -7,7 +7,7 @@ Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men s
 
 ![Am I responsive](documentation/images/am-i%20-responsive.png)
 
-![alt image](media/responsive.png)
+![Shanaya](media/responsive.png)
 
                 
 ## Index – Table of Contents
@@ -658,7 +658,7 @@ As an admin I want to be able to view a list of subscribers in my admin so that 
 
 #### - Header
 
-The header features the Chemstore logo, navigation for products in the centre and three icons to the right, a search icon, an account icon and a bag icon.
+The header features the Shanaya logo, navigation for products in the centre and three icons to the right, a search icon, an account icon and a bag icon.
 
 ![Header](documentation/images/header.png)
 

@@ -24,7 +24,7 @@ def contact(request):
             'Message received,'
             'a member of our team will get back to you shortly.')
 
-        # Send an email to Chemstore Admin
+        # Send an email to Shanaya Admin
         send_mail(
             f'New Message from {name} relating to {product}',
             message,
