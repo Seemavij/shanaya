@@ -106,43 +106,43 @@ The header features the Shanaya logo, navigation for products in the centre and 
 
 The search icon when clicked brings up a search input below, this can be used to search the site for all products. An autofocus was added so when the search icon is clicked the user's type is on the search input.
 
-![Search Icon and Overlay](documentation/images/search-overlay.png)
+![Shanaya](media/search.png)
 
 #### Account Dropdown
 
 When clicked the account icon will display a dropdown list. Depending on the logged in status of the site user you will see different links. When the user is logged out they will see 'Register', 'Login' and 'Contact'. If the user is logged in they will see 'My Profile', 'Logout' and 'Contact'. Finally, if an admin user is logged in they will see 'Product Managment', 'My Profile', 'Logout' and 'Contact'.
 
-![Account Dropdown](documentation/images/account-dropdown.png)
+![Shanaya](media/sort-by.png)
 
 #### Bag Notification
 
 If the user currently has nothing in their bag they will just see a bag icon. If the user adds a product or products to their bag a green circle/ bubble will appear with the number of items in their bag.
 
-![Bag Notification](documentation/images/header-bag.png)
+![Shanaya](media/bag.png)
 
 #### Hero Section
 
 The hero section is quite simple featuring an illustration of an ecommerce style image to the right and an a site intro on the left. The hero section also features a button to 'Shop Now' that takes the user to the all products page.
 
-![Hero Section](documentation/images/hero-section.png)
+![Shanaya](media/shanaya-logo.png)
 
 #### Product Categories
 
 Below the hero section is a Product Categories section. This section features five cards with an image. Each card will grow on hover and when clicked will take the user to that product category.
 
-![Product Categories](documentation/images/product-categories.png)
+![Shanaya](media/order-checkout.png)
 
 #### About Us Section
 
 Next we have the about us section. Again,Shanaya is a shared experience for anyone who steps on our website. Our collections take inspiration from the philosophies of different parts of UK to create an outfit that goes beyond a moment to become a significant memory for you.
 
-![About Us Section](documentation/images/about-us.png)
+![Shanaya](media/bag-contexts.py.png)
 
 #### Our Client Carousel
 
 At the bottom of the homepage is a carousel style section featuring some of Shanaya's previous clients. This has been animated to automatically scroll across the screen.
 
-![Our Client Carousel](media/contact-us.png)
+![Shanaya](media/contact-us.png)
 
 #### Footer
 
@@ -150,7 +150,7 @@ Finally the homepage features a footer. This footer is split into four sections.
 
 There is also a link to the privacy policy at the bottom.
 
-![Footer](documentation/images/footer.png)
+![Footer](media/review.png)
 
 
 #### All Products Page
@@ -161,9 +161,13 @@ The rating shown is an average of all user ratings for that product.
 
 If the user is an admin they will see two icon buttons to edit and delete a product.
 
-![All Products Page](documentation/images/product-page.png)
+![shanaya](media/all-product.png)
 
-![alt image](media/about-image.png)
+![Shanaya](media/women-product.png )
+
+![Shanaya](media/men-product.png)
+
+![Shanaya](media/about-image.png)
 
 #### Edit Product
 
@@ -236,14 +240,14 @@ The checkout page has a form to fill out the user's delivery details and card de
 
 On the my profile page the logged in user can see their saved delivery details to the left and their order history on the right. Clicking the green highlighted order number will take the user to the order confirmation history with an alert that they are viewing an old order history.
 
-![Profile Page](documentation/images/profile-page.png)
+![Shanaya](media/home-page.png)
 
 
 #### Contact Page
 
 The contact page has an embedded Google Map on the left of the location of Shanaya. Next to it is a contact form with the option to select a product if their query relates to a particular product.
 
-![Contact Page](documentation/images/contact-page.png)
+![Shanaya](media/contact-page.png)
 
 #### Newsletter Page
 
@@ -294,9 +298,9 @@ I have taken several steps to help with the sites SEO:
 
 Link here: [Shanaya Facebook Page](https://www.facebook.com/Shanayagroupire/)
 
-Shanaya's main audience can be found on LinkedIn, as they predominantly operate in the B2B space.
+Shanaya's main audience can be found on Twitter, as they predominantly operate in the B2B space.
 
-Link here: [Shanaya LinkedIn Page](https://www.linkedin.com/company/3483243)
+Link here: [Shanaya Twitter Page](https://www.twitter.com.png)
 
 ### Features which could be implemented in the future
 
@@ -333,7 +337,7 @@ Below are all the wireframes that I created for this project:
 <details>
     <summary>Home Page</summary>
 
-![Home Page Wireframe](documentation/images/wireframe-home.png)
+![Shanaya](media/wireframe.png)
 
 
   </details>
@@ -432,6 +436,7 @@ Link can be found here: [Shanaya Github Project](https://github.com/users/Seemav
 3. Product detail page found multiple errors.
 - These are again being caused by django-ckeditor.
 
+[!shanaya](media/contact-us-testing.png)
 __Pages Checked__
 
 - Home Page
@@ -451,6 +456,7 @@ __Pages Checked__
 - Login Page
 - Logout Page
 - 404 Page
+[!Shanaya](media/css-page-testing.png)
 
 [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) found no issues.
 
@@ -667,7 +673,7 @@ The header features the Shanaya logo, navigation for products in the centre and 
 ![alt image](media/bag-contexts.py.png)
 
 
-
+![alt image](media/home-page.png)
 
 
 ![alt image](media/bag-views.py.png)
@@ -807,17 +813,11 @@ As well as the user story testing conducted I clicked every link and button on b
 
 
 
-
-
-
-
-
-
 * Agile Planning :
------------------- 
-! This project was developed using agile methodologies, delivering small features over 6 sprints spaced out over 6 weeks. Each issue was labelled must have, should have and could have. The must-have features were completed first, then the should have's, then the could have's. It was done this way to ensure a complete website is made with the nice-to-have features added if there is capacity.
 
-! My kanban board was made using github projects which can be viewed here. Each view can be clicked in to obtain further information.
+ This project was developed using agile methodologies, delivering small features over 6 sprints spaced out over 6 weeks. Each issue was labelled must have, should have and could have. The must-have features were completed first, then the should have's, then the could have's. It was done this way to ensure a complete website is made with the nice-to-have features added if there is capacity.
+
+ My kanban board was made using github projects which can be viewed here. Each view can be clicked in to obtain further information.
 
 The user stories were grouped into different Epics
 

@@ -14,9 +14,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #8d0b0bd1;
+    color: #bf2f2f9c;
     font-family: 'Rubik';
-    background-color: rgba(209, 106, 21, 0.936);
+    background-color: rgba(152, 85, 31, 0.559);
 }
 
 
@@ -42,9 +42,9 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(255, 255, 255, 0.604);
+    color: rgba(131, 155, 13, 0.373);
     border-color: rgba(255, 255, 255, 0.058);
-    background-color: rgba(195, 223, 17, 0.797);
+    background-color: rgba(146, 163, 33, 0.525);
 }
 
 
@@ -252,15 +252,15 @@ input[type=submit] {
 
 /* buttons */
 .btn-black {
-    background: rgba(0, 0, 0, 0.789);
-    color: white;
+    background: rgba(210, 210, 7, 0.789);
+    color: rgba(25, 4, 4, 0.797);
     border-radius: 15px;
     margin-bottom: 15px;
 }
 
 .btn-outline-black {
-    background: white;
-    color: rgba(0, 0, 0, 0.819) !important;
+    background: rgb(206, 220, 17);
+    color: rgba(232, 115, 26, 0.819) !important;
     /* use important to override link colors for <a> elements */
     border: 1px solid rgba(0, 0, 0, 0.832);
     margin-bottom: 15px;
@@ -270,7 +270,7 @@ input[type=submit] {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: rgba(218, 6, 6, 0.884);
+    background: rgba(177, 43, 43, 0.884);
     color: rgba(213, 109, 23, 0.855) !important;
 }
 
@@ -282,16 +282,16 @@ input[type=submit] {
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
-.btn-black:hover,
+.btn-outline-black:active:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222222e0;
-    color: white;
+    background: #c30736e1;
+    color: rgba(8, 139, 130, 0.641);
     border-radius: 15px;
 }
 
 .text-black {
-    color: #e68f14 !important;
+    color: #b57316 !important;
 }
 
 .border-black {
@@ -299,11 +299,11 @@ input[type=submit] {
 }
 
 .bg-black {
-    background: #e8440d !important;
+    background: #a52e0686 !important;
 }
 
 a.category-badge>span.badge:hover {
-    background: #21252939 !important;
+    background: #034a9139 !important;
     color: #fff !important;
 }
 
