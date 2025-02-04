@@ -142,7 +142,7 @@ Next we have the about us section. Again,Shanaya is a shared experience for anyo
 
 At the bottom of the homepage is a carousel style section featuring some of Shanaya's previous clients. This has been animated to automatically scroll across the screen.
 
-![Shanaya](media/contact-us.png)
+![Shanaya](media/django-admin.png)
 
 #### Footer
 
@@ -247,7 +247,7 @@ On the my profile page the logged in user can see their saved delivery details t
 
 The contact page has an embedded Google Map on the left of the location of Shanaya. Next to it is a contact form with the option to select a product if their query relates to a particular product.
 
-![Shanaya](media/contact-page.png)
+![Shanaya](media/contact-us-form.png)
 
 #### Newsletter Page
 
@@ -271,7 +271,7 @@ Near identical to the sign up page, the unsubscribe page has a single input fiel
 
 Finally, I have set up a custom 404 error page (as well as 403, 405 and 500). This presents the user with a relevant image and a link to take them back to the homepage.
 
-![Custom 404 Page](documentation/images/404.png)
+![shanaya](media/)
 
 #### SEO and Web Marketing
 
@@ -346,7 +346,7 @@ Below are all the wireframes that I created for this project:
 <details>
     <summary>Products Page</summary>
 
-![Produts Wireframe](documentation/images/wireframe-products.png)
+![Produts Wireframe]()
 
 
   </details>
@@ -354,7 +354,7 @@ Below are all the wireframes that I created for this project:
   <details>
     <summary>Product Detail Page</summary>
 
-![Product Detail Wireframe](documentation/images/wireframe-product-detail.png)
+![Product Detail Wireframe]()
 
 
 
@@ -363,7 +363,7 @@ Below are all the wireframes that I created for this project:
 <details>
     <summary>Mobile Views</summary>
 
-![Mobile Views Wireframe](documentation/images/wireframe-mobile.png)
+![Mobile Views Wireframe]()
 
 
 
@@ -443,7 +443,7 @@ __Pages Checked__
 - Products Page
 [!shanaya](media/cover-page-testing.png)
 - Product Detail Page
-[!shanaya](media/cover-page-testing.png)
+[!shanaya](media/css-testing.png)
 - Add Product Page
 [!shanaya](media/blog-forms.py.png)
 - Edit Product Page
@@ -455,12 +455,16 @@ __Pages Checked__
 - Sign Up Page
 [!shanaya](media/css-page-testing.png)
 - Unsubscribe Page
+[!shanaya](media/blog-views.py.png)
 - Contact Page
 - Bag Page
+[!shanaya](media/manaul-testing.png)
 - Checkout Page
 - Checkout Success Page
+[!shanaya](media/lighthouse-testing.png)
 - Sign Up Page
 - Login Page
+[!shanaya](media/checkout-views.py.png)
 - Logout Page
 - 404 Page
 [!Shanaya](media/css-page-testing.png)
@@ -475,7 +479,7 @@ All code has been made PEP8 compliant.
 
 Below are the series of user testing that I carried out on my site.
 
-![Shanaya User Story Testing](documentation/images/user-story-testing.png)
+![Shanaya User Story Testing](media/cover-page-testing.png)
 
 As well as the user story testing conducted I clicked every link and button on both desktop and mobile to confirm they are all functioning as they should.
 
@@ -820,11 +824,11 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 . The Footer has been added to the bottom of the site and contains links to the site’s blog, reviews and donations form. Users can also subscribe to the site’s newsletter from here.
 
 
-![alt image](media/django-admin.png)
+![shanaya](media/django-admin.png)
 
-![alt image](media/colour.png)
+![shanaya](media/colour.png)
 
-![alt image](media/base-css.png)
+![shanaya](media/base-css.png)
 . I checked the website for responsiveness on all devices from 320px and up. I checked on Chrome, Edge, Firefox and Opera browsers.
 
 . I did this by using developer tools and re-sizing the website to down to 320px.
