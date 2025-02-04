@@ -196,11 +196,11 @@ If the user is an admin they will again see two icon buttons to edit and delete 
 
 User Added to Bag:
 
-![User Added to Bag](documentation/images/add-to-bag.png)
+![shanaya](media/add-to-bag.png)
 
 If the product has sizes a sizes option will also appear on the product detail page.
 
-![Product Sizes](documentation/images/product-with-sizes.png)
+![shanaya](media/product-size.png)
 
 #### Product Reviews
 
@@ -208,19 +208,19 @@ Below the product container on the product detail page is the reviews section. W
 
 Only the user that made the review or an admin has the ability to edit or delete it.
 
-![Product Reviews](documentation/images/product-reviews)
+![shanaya](media/review.png)
 
 #### Edit Review Page
 
 When the user clicks the edit button they are taken to a page with the edit form prefilled with their previous details. At the bottom there is two buttons. The first is to 'Delete Review', this will again take the user to a modal again to confirm delete. Then there is an 'Update Review' button that updates the review.
 
-![Edit Review Page](documentation/images/edit-review.png)
+![Edit Review Page](media/)
 
 #### Add Product
 
 As well as admin users having the ability to add products in the django admin they can also add them in the front end site. This page also features a rich text editor. 
 
-![Add Product](documentation/images/add-product.png)
+![shanaya](media/all-product.png)
 
 #### Bag Page
 
@@ -228,13 +228,13 @@ When the user is ready to progress on to the bag page they can either click the 
 
 The bag page features each product as displayed as a line item. The user can edit quantites or remove items from their bag with the buttons displayed.
 
-![Bag Page](documentation/images/bag.png)
+![shanaya](media/bag.png)
 
 #### Checkout Page
 
 The checkout page has a form to fill out the user's delivery details and card details. On the right is an order summary with the total cost.
 
-![Checkout Page](documentation/images/checkout.png)
+![shanaya](media/order-checkout.png)
 
 #### Profile Page
 
@@ -441,12 +441,19 @@ __Pages Checked__
 
 - Home Page
 - Products Page
+[!shanaya](media/cover-page-testing.png)
 - Product Detail Page
+[!shanaya](media/cover-page-testing.png)
 - Add Product Page
+[!shanaya](media/blog-forms.py.png)
 - Edit Product Page
+[!shanaya](media/bag-contexts.py.png)
 - Edit Review Page
+[!shanaya](media/blog-models.py.png)
 - Profile Page
+[!shanaya](media/contact-us-testing.png)
 - Sign Up Page
+[!shanaya](media/css-page-testing.png)
 - Unsubscribe Page
 - Contact Page
 - Bag Page
@@ -590,79 +597,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 ### Acknowledgments
 
 - Thank you to my mentor for his help and feedback throughout this project.
+
 - Thanks to the Code Institute tutors that also helped me in this project.
 
-![alt image](media/contact-us.png)
-
-<!--User Experience (UX)  -->
-
-User stories
-
-All user stories can be seen here Shanaya
-
-* Site User Stories
-
-. As a site user I want to be able to register for an account so that I can have a personal account with my delivery details saved
-
-. As a site user I want to be able to login and logout so that I can access my profile info
-
-. As a site user I want to be able to receive an email confirmation after sign up so that I can verify my account registration was successfull
-
-. As a site user I want to be able to have a personalised user profile so that I can view my order history and delivery information
-
-. As a site user I want to be able to leave a product review so that I can advise potential customers with my advise
-
-. As a site user I want to be able to sign up to a newsletter so that I can get the latest news and offers
-
-. As a **site user ** I want to be able to **unsubscribe for the newsletter ** so that I can stop receiving emails
-
-. As a site user I can return to Home after http 404 or 500 response so that I feel I am still working within the website and can navigate easily
-
-* Shopper User Stories
-------------
-. As a shopper I want to be able to view my total cost so that I can I don't spend too much
-
-. As a shopper I want to be able to sort any list of products so that I can easily sort by price, best rated, etc
-
-. As a shopper I want to be able to sort products into categories so that I can split products into categories to make it easier to find what I want
-
-. As a shopper I want to be able to search a product by name so that I can easily find the product I am searching for
-
-. As a shopper I want to be able to select a specific size so that I can I can make sure the product will suit my needs
-
-. As a shopper I want to be able to view the items in my bag so that I can check out my bag contents and know exactly what I am buying
-
-. As a shopper I want to be able to adjust the quantity of items in my bag so that I can easily make changes
-
-. As a shopper I want to be able to enter my card details so that I can make a purchase
-
-. As a shopper I want to be able to view my order after I complete a purchase so that I can verify I have not made any mistakes
-
-. As a shopper I want to be able to receive an email confirmation after making a purchase so that I can keep the confirmation for any future needs
-
-. As a shopper I want to be able to contact Shanaya so that I can get in touch regarding a product/ issue, etc
-
-Admin Stories
-------------
-
-As an admin I want to be able to add a product so that I can I can add new products my store
-
-As an admin I want to be able to edit a product so that I can make changes to any product
-
-As an admin I want to be able to delete a product so that I can remove an item that is no longer for sale
-
-As an admin I want to be able to view all messages from the contact form so that I can communicate with customers in a timely manner
-
-As an admin I want to be able to view all messages from the contact form so that I can communicate with customers in a timely manner
-
-As an admin I want to be able to view a list of subscribers in my admin so that I can see the amount of subscribers we have
 
 
-## Features
-
-### Existing Features
-
-#### - Header
 
 The header features the Shanaya logo, navigation for products in the centre and three icons to the right, a search icon, an account icon and a bag icon.
 
@@ -683,97 +622,52 @@ The header features the Shanaya logo, navigation for products in the centre and 
 ![alt image](media/blog-forms.py.png)
 
 
-
 ![alt image](media/background-image.png)
-
-
-
 
 ![alt image](media/footer.png)
 
 
-
-
 ![alt image](media/browser.png)
 
-
-
-
 ![alt image](media/item-detail.png)
-
-
 
 ![alt image](media/sign-in.png)
 
 ![alt image](media/sign-out.png)
 
-
-
 ![alt image](media/order-summary.png)
-
-
 
 
 ![alt image](media/checkout-views.py.png)
 
 
-
-
 ![alt image](media/order-confirmation.png)
-
-
 
 ![alt image](media/blog-forms.py.png)
 
 ![alt image](media/blog-views.py.png)
 
-
-
  Wireframes
 
 ![alt text](/media/wireframe.png)
 
-
 ![alt text](/media/colour.png)
 
-
-
 ![alt image](media/order-checkout.png)
-
-
-
 
 ![alt image](media/checkout-page-testing.png)
 
-
-
 ![alt image](media/checkout-views.py.png)
-
-
-
-
 
 ![alt image](media/checkout.png)
 
-
-
-
-
 ![alt image](media/order-checkout.png)
-
-
 
 ![alt image](media/order-confirmation.png)
 
-
-
 ![alt image](media/stripe.png)
 
-
-
 ![alt image](media/review.png)
-
-
 
 ![alt image](media/contact-us-testing.png)
 
@@ -787,20 +681,13 @@ The header features the Shanaya logo, navigation for products in the centre and 
 ![alt image](media/checkout-page-testing.png)
 
 
-
 ![alt image](media/checkout-views.py.png)
-
 
 ![alt image](media/blog-models.py.png)
 
-
 ![alt image](media/blog-admin.py.png)
 
-
-
 ![alt image](media/lighthouse-testing.png)
-
-
 
 ![alt image](media/manaul-testing.png)
 
@@ -811,8 +698,6 @@ As well as the user story testing conducted I clicked every link and button on b
 . Tested all page getting bug in Sign up page after Validation.
 
 
-
-
 * Agile Planning :
 
  This project was developed using agile methodologies, delivering small features over 6 sprints spaced out over 6 weeks. Each issue was labelled must have, should have and could have. The must-have features were completed first, then the should have's, then the could have's. It was done this way to ensure a complete website is made with the nice-to-have features added if there is capacity.
@@ -821,9 +706,6 @@ As well as the user story testing conducted I clicked every link and button on b
 
 The user stories were grouped into different Epics
 
-* Epic 1 - Set up
------------------- 
-The base setup of the Django app was done first as nothing else can be completed before this is done. I completed the base html, and the header.
 
 Epic 1 user stories
 ------------------ 
@@ -911,31 +793,7 @@ Epic 7 User Stories
 ------------------
 . As the site owner, I want to share social media links and contact details
 
-. As the site owner, I want a nav bar for the site extras such as the blog, reviews.
-
-* Epic 9 - Documentation and styling
-
-* Epic 9 Tasks
---------------
-. Complete Styling on all pages and all screen sizes
-
-. Complete Readme documentation
-
-. Complete testing and writeup
-
-* Scope
-------------------
-. Responsive Design
-
-. Home page with information about Shanaya
-
-. Ability to perform CRUD functionality on the Blog
-
-. Restricted features for not logged in as users and superusers
-
-
-
-. user story - As a user, I want to be able to navigate easily around the site from any device
+. As the site owner, I want a nav bar for the site extras such as the blog, reviews
 
 . Navigation Menu
 ------------------
@@ -961,165 +819,15 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 
 . The Footer has been added to the bottom of the site and contains links to the site’s blog, reviews and donations form. Users can also subscribe to the site’s newsletter from here.
 
-. Underneath the footer navigation bar users can see the contact email for the site and links to the social media pages.
-
-. Sign in, log in, log out
----------
-. As a new user, I want to be able to sign up easily and intuitively
-
-. As a returning user, I want to be able to log in easily.
-
-. As a user, I want to be able to log out of the site safely and easily.
-
-. As a developer, I want to ensure the forms are all the same style and look good on all devices
-
 
 ![alt image](media/django-admin.png)
 
-
 ![alt image](media/colour.png)
 
-
 ![alt image](media/base-css.png)
-
-
-Keep Shopping => goes back to the products page
-
-Add to bag => correctly adds the item to the user’s bag this shows a success toast with the bag contents and the bag total cost shows up under the shopping bag icon.
-
-The user can either click the cross on the toast to get rid of it or they can go to the checkout by clicking the go to secure checkout button. This works correctly
-
-I tested adding the same item twice to the shopping bag and an error message correctly appears advising the user they can’t do that.
-
-Bag Icon
--------
-The shopping bag icon takes the user to the shopping bag.
-
-Shopping Bag
-------------
-The red remove button correctly deletes the item from the shopping bag and the correct toast appears to confirm this has been successful.
-
-The Keep Shopping button correctly takes the user back to the products page
-
-The Secure checkout button correctly takes the user to the checkout form.
-
-* Checkout :
-------------
-I checked the checkout form for positive and negative tests
-
-I left each box blank and the form flagged an error when these were not filled in correctly. The email box flagged an error when an incorrect
-
-Product Details page
-----------------
-Keep Shopping => goes back to the products page
-
-Add to bag => correctly adds the item to the user’s bag this shows a success toast with the bag contents and the bag total cost shows up under the shopping bag icon.
-
-The user can either click the cross on the toast to get rid of it or they can go to the checkout by clicking the go to secure checkout button. This works correctly
-
-I tested adding the same item twice to the shopping bag and an error message correctly appears advising the user they can’t do that.
-
-
-* Card Details :
-----------------
-I used stripes test card number to use on the site. It showed an error when the card number was input incorrectly
-
-Order Confirmation
-------------------
-The order confirmation button takes the user to a thank you page confirming their email address, address and order details. A success message also correctly appears supplying the order number and confirming the confirmation email is sent to the email address given.
-
-I checked the latest deals button takes the user back to the products page.
-
-Once the item has been bought, it correctly no longer appears on the products page to be bought again. As this is a second hand site there is only one of each item.
-
-Stripe
-------
-I checked the stripe website to make sure that the payment had gone through correctly there and the webhooks had worked correctly and all was working well.
-
-Profile Page
------------
-I checked that the order had correctly been added to the profile page
-
-I also updated the customer details which then changed on the checkout form the next time I bought something.
-
-* Footer
--------
-* Blog
-------
-. The blog button correctly takes the user to the blog list page, each blog post photo and title correctly take the user to the blog detail page for that post.
-
-. On the blog post, only the superuser can see the create blog post button. I tested this both logged out completely and logging in as a regular user. The same applies to the delete and edit buttons located in the blog detail.
-
-. I also used the URL to try and get to the create, edit and delete pages without the buttons and you could get there as the superuser but could not as either not logged in or logged in as a different user.
-
-. The charity website link takes you to the correct website and it opens in a new window as it should.
-
-. The create and edit forms both upload the information and pictures as expected. The edit form also contained all the previous information ready to edit as expected.
-
-. Unfortunately, an error occurred in the blog form. If a picture is not correctly uploaded it caused an error on the blog list page.
-
-. I have written about this in the bug section and it has now been fixed so it works correctly.
-
-* Reviews :
-----------
-. The reviews button correctly takes the user to the reviews page, the reviews are correctly ordered with the newest first. The write a review button takes you to the form to write your review. once completed the submit button correctly takes you back to the review page where the new review is visible.
-
-. If you are not logged in the reviews button correctly takes the user to the sign-in page
-
-* Subscribe :
-------------
-. The subscribe button correctly takes the user to the mailchimp subscription page. I tested this with an email that I had already used before and it would not accept it and told me to enter a different email address as it had already been used.
-
-. A new email address was successfully added.
-
-. It also correctly flagged an error when an incomplete email address was added.
-
-. All of the social media icons correctly take to you their respective social media pages which open in a new page as expected.
-
-. The Facebook icon correctly went to the Shanaya Facebook page.
-
-* Emails :
---------
-. I was correctly able to set up a new user, receive an email to confirm the email address of the user, click the link to the site and confirm the email address. I then logged in with an incorrect name and email for the user and both flagged errors correctly by the system.
-
-. A confirmation email was correctly sent once an order was completed.
-
-* Accessibility :
-----------------
-. I used the Wave Accessibility tool to check for aid accessibility testing.
-
-. The page showed a couple of errors and they were for labels on the search box in the nav bar. I added aria labels for this but the errors stayed in the box despite disappearing on the page.
-
-. On other pages, it showed Alerts that show redundant links, on the blog picture and name.
-
-. I have chosen to leave these links as they are because I think they make navigation around the site better.
-
-* Validator Testing :
-------------------
-. All pages were run through the w3 HTML validator. Initially, there were some errors, for example, there were some missing closing tags and a
-
-tag that was used incorrectly inside a .
-
-. All issues were fixed and all pages run through the checker with no errors.
-
-* PP8 Validator :
------------------
-. The pep8 validator was not working at the time of checking this project. I checked in the terminal using linter and corrected all the items shown until it said no problems detected in the workspace. There were some long lines in the settings tab in Laneys Loft that I left because they were there already. I could not find a way of screenshotting a picture of this.
-
-* Javascript :
--------------
-. I didn't use any Javascript in this project over the js used in boutique ado so I have not tested for that.
-
-* Lighthouse Report :
-------------------
-. The lighthouse report initially showed a low score on performance. I compressed my hero image which fixed the problem.
-
-* Responsiveness :
-------------------
 . I checked the website for responsiveness on all devices from 320px and up. I checked on Chrome, Edge, Firefox and Opera browsers.
 
 . I did this by using developer tools and re-sizing the website to down to 320px.
 
 . As expected, there were no responsiveness issues.
 
-![alt image](media/about-us.png)
