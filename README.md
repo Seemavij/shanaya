@@ -5,7 +5,7 @@
 
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate and home delivery free on order £50
 
-![Am I responsive](media/responsive.png)
+![shanaya](media/responsive.png)
 
 
                 

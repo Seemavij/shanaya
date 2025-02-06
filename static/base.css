@@ -9,7 +9,7 @@ html {
 
 
 body {
-    background: url('/media/homepage-background-cropped.jpg')no-repeat center center fixed;
+    background-image: url('/media/homepage-background-cropped.jpg')no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #d6155f7d;
