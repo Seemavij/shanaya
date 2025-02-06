@@ -32,8 +32,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'm2pkh2vb_3@j3l#^5yrd62fw(3-m&1o9hdp++
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['8000-seemavij-shanaya-da9wg35fhrv.ws-eu117.gitpod.io'
-   ,
+ALLOWED_HOSTS = ['8000-seemavij-shanaya-da9wg35fhrv.ws-eu117.gitpod.io',
+    'shanaya.herokuapp.com',
+    '.codeinstitute-ide.net',
+    'shanaya-4953fd346fee.herokuapp.com',
+   
 ]
 
 # Application definition

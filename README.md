@@ -5,9 +5,8 @@
 
 Shanaya is a ecommerce site. It sell Bridal dresses, Indo western dresses, Men sherwani & gown online.Variety of collection and clothes for sale on reasonable rate and home delivery free on order £50
 
-![Am I responsive](documentation/images/am-i%20-responsive.png)
+![Am I responsive](media/responsive.png)
 
-![Shanaya](media/responsive.png)
 
                 
 ## Index – Table of Contents
@@ -175,13 +174,13 @@ This feature is only available to admin users, when the edit button is clicked w
 
 An alert displays to notify the admin that they are currently editing a product. The edit product page features a rich text editor thanks to django-ckeditor.
 
-![Edit Product](documentation/images/edit-product.png)
+![Edit Product](media/edit-a-product.png)
 
 #### Delete Product
 
 When the delete button is clicked the admin user will have a modal appear to confirm if the admin wants to delete the product.
 
-![Delete Product](documentation/images/delete-product.png)
+![shanaya](media/remove_item.png)
 
 
 #### Product Detail Page
@@ -192,7 +191,7 @@ The rating shown is an average of all user ratings for that product.
 
 If the user is an admin they will again see two icon buttons to edit and delete a product.
 
-![Product Detail Page](documentation/images/product-page.png)
+![shanaya](media/product_detail.png)
 
 User Added to Bag:
 
@@ -214,7 +213,7 @@ Only the user that made the review or an admin has the ability to edit or delete
 
 When the user clicks the edit button they are taken to a page with the edit form prefilled with their previous details. At the bottom there is two buttons. The first is to 'Delete Review', this will again take the user to a modal again to confirm delete. Then there is an 'Update Review' button that updates the review.
 
-![Edit Review Page](media/)
+![Edit Review Page](media/Shopping-cart.png)
 
 #### Add Product
 
@@ -271,7 +270,7 @@ Near identical to the sign up page, the unsubscribe page has a single input fiel
 
 Finally, I have set up a custom 404 error page (as well as 403, 405 and 500). This presents the user with a relevant image and a link to take them back to the homepage.
 
-![shanaya](media/)
+![shanaya](media/page_404.png)
 
 #### SEO and Web Marketing
 
@@ -294,13 +293,13 @@ I have taken several steps to help with the sites SEO:
 
 1. Although less useful for B2B products, A Facebook page for Shanaya exists.
 
-![Shanaya Facebook](documentation/images/Shanaya-facebook.png)
+![Shanaya Facebook](https://www.facebook.com/)
 
-Link here: [Shanaya Facebook Page](https://www.facebook.com/Shanayagroupire/)
+Link here: [Shanaya Instagram Page](https://www.instagram.com/)
 
 Shanaya's main audience can be found on Twitter, as they predominantly operate in the B2B space.
 
-Link here: [Shanaya Twitter Page](https://www.twitter.com.png)
+Link here: [Shanaya Twitter Page](https://x.com/)
 
 ### Features which could be implemented in the future
 
@@ -346,28 +345,12 @@ Below are all the wireframes that I created for this project:
 <details>
     <summary>Products Page</summary>
 
-![Produts Wireframe]()
+![shanaya](media/product-wireframe.png)
 
 
   </details>
 
-  <details>
-    <summary>Product Detail Page</summary>
-
-![Product Detail Wireframe]()
-
-
-
-  </details>
-
-<details>
-    <summary>Mobile Views</summary>
-
-![Mobile Views Wireframe]()
-
-
-
-  </details>
+ 
 
   ### Entity-Relationship diagram for DBMS
 
@@ -466,6 +449,7 @@ __Pages Checked__
 - Login Page
 [!shanaya](media/checkout-views.py.png)
 - Logout Page
+[!shanaya](media/manaul-testing.png)
 - 404 Page
 [!Shanaya](media/css-page-testing.png)
 
