@@ -26,7 +26,7 @@ def display_newsletter_fom(request):
                 request,
                 'Thanks for signing up to the Hazmat Bulletin!')
             # Sends email to newsletter subscriber
-            subject = 'Thanks for signing up to the Hazmat Bulletin'
+            subject = 'Thanks for signing up to the Aaj tak Bulletin'
             from_email = settings.DEFAULT_FROM_EMAIL
             to_email = [instance.email]
             with open(
