@@ -264,7 +264,6 @@ Near identical to the sign up page, the unsubscribe page has a single input fiel
 
 Near identical to the sign up page, the unsubscribe page has a single input field to delete their email address from our database. When submitted the user will get an alert saying that they are now unsubsribed and receive a confirmation email.
 
-![Unsubscribe Page](documentation/images/unsubscribe.png)
 
 #### Custom 404 Page
 
@@ -589,95 +588,81 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 - Thanks to the Code Institute tutors that also helped me in this project.
 
 
-
-
 The header features the Shanaya logo, navigation for products in the centre and three icons to the right, a search icon, an account icon and a bag icon.
 
-![Header](documentation/images/header.png)
+![shanaya](media/header.png)
 
+![shanaya](media/bag-contexts.py.png)
 
-------------
-![alt image](media/bag-contexts.py.png)
+![shanaya](media/home-page.png)
 
-
-![alt image](media/home-page.png)
-
-
-![alt image](media/bag-views.py.png)
+![shanaya](media/bag-views.py.png)
 
 > Shanaya Features:
 -----------
-![alt image](media/blog-forms.py.png)
+![shanaya](media/blog-forms.py.png)
 
+![shanaya](media/background-image.png)
 
-![alt image](media/background-image.png)
+![shanaya](media/footer.png)
 
-![alt image](media/footer.png)
+![shanaya](media/browser.png)
 
+![shanaya](media/item-detail.png)
 
-![alt image](media/browser.png)
+![shanaya](media/sign-in.png)
 
-![alt image](media/item-detail.png)
+![shanaya](media/sign-out.png)
 
-![alt image](media/sign-in.png)
+![shanaya](media/order-summary.png)
 
-![alt image](media/sign-out.png)
+![shanaya](media/checkout-views.py.png)
 
-![alt image](media/order-summary.png)
+![shanaya](media/order-confirmation.png)
 
+![shanaya](media/blog-forms.py.png)
 
-![alt image](media/checkout-views.py.png)
-
-
-![alt image](media/order-confirmation.png)
-
-![alt image](media/blog-forms.py.png)
-
-![alt image](media/blog-views.py.png)
+![shanaya](media/blog-views.py.png)
 
  Wireframes
 
-![alt text](/media/wireframe.png)
+![shanaya](/media/wireframe.png)
 
-![alt text](/media/colour.png)
+![shanaya](/media/colour.png)
 
-![alt image](media/order-checkout.png)
+![shanaya](media/order-checkout.png)
 
-![alt image](media/checkout-page-testing.png)
+![shanaya](media/checkout-page-testing.png)
 
-![alt image](media/checkout-views.py.png)
+![shanaya](media/checkout-views.py.png)
 
-![alt image](media/checkout.png)
+![shanaya](media/checkout.png)
 
-![alt image](media/order-checkout.png)
+![shanaya](media/order-checkout.png)
 
-![alt image](media/order-confirmation.png)
+![shanaya](media/order-confirmation.png)
 
-![alt image](media/stripe.png)
+![shanaya](media/stripe.png)
 
-![alt image](media/review.png)
+![shanaya](media/review.png)
 
-![alt image](media/contact-us-testing.png)
+![shanaya](media/contact-us-testing.png)
 
------------------- 
-![alt image](media/css-testing.png)
+![shanaya](media/css-testing.png)
 
-------------------
-![alt image](media/cover-page-testing.png)
+![shanaya](media/cover-page-testing.png)
 
-------------------
-![alt image](media/checkout-page-testing.png)
+![shanaya](media/checkout-page-testing.png)
 
+![shanaya](media/checkout-views.py.png)
 
-![alt image](media/checkout-views.py.png)
+![shanaya](media/blog-models.py.png)
 
-![alt image](media/blog-models.py.png)
+![shanaya](media/blog-admin.py.png)
 
-![alt image](media/blog-admin.py.png)
+![shanaya](media/lighthouse-testing.png)
 
-![alt image](media/lighthouse-testing.png)
-
-![alt image](media/manaul-testing.png)
+![shanaya](media/manaul-testing.png)
 
 > Bugs
 
@@ -810,9 +795,8 @@ User Story: As the site owner I want a nav bar for the site extras such as the b
 
 ![shanaya](media/django-admin.png)
 
-![shanaya](media/colour.png)
-
 ![shanaya](media/base-css.png)
+
 . I checked the website for responsiveness on all devices from 320px and up. I checked on Chrome, Edge, Firefox and Opera browsers.
 
 . I did this by using developer tools and re-sizing the website to down to 320px.
