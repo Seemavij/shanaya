@@ -5,6 +5,7 @@ from django.core.mail import send_mail, EmailMultiAlternatives
 from django.template.loader import get_template
 from django.http import HttpResponse
 from .models import NewsletterSubscriber
+from .forms import NewsletterSubscriberForm
 from .admin import NewsletterExport
 
 
@@ -24,7 +25,7 @@ def display_newsletter_fom(request):
             form = NewsletterSubscriberForm()
             messages.success(
                 request,
-                'Thanks for signing up to the Hazmat Bulletin!')
+                'Thanks for signing up to the Aaj tak Bulletin!')
             # Sends email to newsletter subscriber
             subject = 'Thanks for signing up to the Aaj tak Bulletin'
             from_email = settings.DEFAULT_FROM_EMAIL
@@ -45,8 +46,7 @@ def display_newsletter_fom(request):
     context = {
         'form': form,
     }
-
-    template = 'newsletter/sign_up.html'
+    template = 'newsletter/includes/sign_up.html'
 
     return render(request, template, context)
 
@@ -63,7 +63,7 @@ def unsubcribe_newsletter(request):
                 request,
                 'Your email address has been removed from our system.'
                 'We are sorry to see you go :(')
-            subject = 'You have unsubscribed from the Hazmat Bulletin'
+            subject = 'You have unsubscribed from the Aaj tak Bulletin'
             from_email = settings.DEFAULT_FROM_EMAIL
             to_email = [instance.email]
             with open(
@@ -95,12 +95,3 @@ def unsubcribe_newsletter(request):
     return render(request, template, context)
 
 
-def export_newsletter(request, format):
-    newsletter_export = NewsletterExport()
-    dataset = newsletter_export.export()
-    if format == 'csv':
-        dataset_format = dataset.csv
-
-    response = HttpResponse(dataset_format, content_type='text/csv')
-    response['Content-Disposition'] = 'attachment; filename=newsletter.csv'
-    return response

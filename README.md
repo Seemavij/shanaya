@@ -252,19 +252,19 @@ The contact page has an embedded Google Map on the left of the location of Shana
 
 The newsletter sign up page features a simple input field for users to type their email address and be signed up. When submitted the user will get an alert saying that they are now signed up and receive a confirmation email.
 
-![Newsletter Page](documentation/images/newsletter.png)
+![shanaya](media/newsletter_signup.png)
 
 #### Unsubscribe Page
 
 Near identical to the sign up page, the unsubscribe page has a single input field to delete their email address from our database. When submitted the user will get an alert saying that they are now unsubsribed and receive a confirmation email.
 
-![Unsubscribe Page](documentation/images/unsubscribe.png)
+![shanaya](media/signing_up.png)
 
 #### Unsubscribe Page
 
 Near identical to the sign up page, the unsubscribe page has a single input field to delete their email address from our database. When submitted the user will get an alert saying that they are now unsubsribed and receive a confirmation email.
 
-
+![shanaya](media/remove-bag.png)
 #### Custom 404 Page
 
 Finally, I have set up a custom 404 error page (as well as 403, 405 and 500). This presents the user with a relevant image and a link to take them back to the homepage.
@@ -419,9 +419,11 @@ Link can be found here: [Shanaya Github Project](https://github.com/users/Seemav
 - These are again being caused by django-ckeditor.
 
 [!shanaya](media/contact-us-testing.png)
+
 __Pages Checked__
 
 - Home Page
+
 - Products Page
 [!shanaya](media/cover-page-testing.png)
 - Product Detail Page
@@ -681,7 +683,7 @@ The user stories were grouped into different Epics
 
 
 Epic 1 user stories
------------------- 
+
 .  As a developer, I need to set up the project so that it is ready for implementing core features
 
 .  As a developer, I want to create a base HTML page so that all pages can use the same format.
@@ -693,7 +695,7 @@ Epic 2 - Products and shopping bag
 Setting up database model and admin functions and template pages to be able to view the products available to buy and have messages confirming when items have been added to the bag.
 
 * Epic 2 User Stories
------------------- 
+
 . As a shopper, I want to view a list of products so that I can select something to buy
 
 . As a shopper, I want to be able to click into a product to view its details so I can see what size it is etc
@@ -707,7 +709,7 @@ Setting up database model and admin functions and template pages to be able to v
 ! Epic 3 - payment and purchase confirmation emails.
 
 * Epic 3 User Stories
------------------- 
+
 Epic 3 User Stories
 
 . As a shopper, I want to be able to easily enter my payment details so that I can purchase my chosen items.
@@ -717,7 +719,7 @@ Epic 3 User Stories
 . As a shopper I want Shanaya to send me an email so that I can keep confirmation of purchase for my own records.
 
 * Epic 4 Allauth User Stories
-----------------------
+
 . As a new user, I want to be able to sign up easily and intuitively
 
 . As a returning user, I want to be able to log in easily.
@@ -729,7 +731,7 @@ Epic 3 User Stories
 . As a developer I want accounts to be secure with email confirmation.
 
 * Epic 5 - Profile Page
----------------------
+
 . As a user, I want to be able to access a profile page so that I can see my order details.
 
 . As a user, I want to see what donations I have made in the past.
@@ -737,7 +739,7 @@ Epic 3 User Stories
 . As a user, I want to be able to update my details if I have to add a new address.
 
 * Epic 6 - Blog
-----------------
+
 . As a site user I want to be able to see where the money from the site is being sent so I can feel good about my purchases.
 
 . As a site owner I want to easily be able to add blog entries onto the Site.
@@ -751,7 +753,7 @@ Epic 3 User Stories
 * Epic 7 - Reviews
 
 Epic 7 User Stories
-------------------
+
 . As a user, I would like to be able to read reviews about the site so I can decide if I want to use it
 
 . As a site user who is logged in, I would like to be able to leave my own review so that I can tell others about my experience.
@@ -763,19 +765,19 @@ Epic 7 User Stories
 * Epic 8 Footer
 
 * Epic 8 User Stories
-------------------
+
 . As the site owner, I want to share social media links and contact details
 
 . As the site owner, I want a nav bar for the site extras such as the blog, reviews
 
 . Navigation Menu
-------------------
+
 . From the main top navigation bar, the user can log in or sign in. Once logged in they can access their profile page.
 
 . They can browse all the site products and check their shopping bag. They can also search the site using the search bar.
 
 * Home Page
-------------
+
 . User Story - As a user I want the front page to be clear and self-explanatory so I know I am in the right place.
 
 . The front page contains an image of a website. This gives the initial impression of stuff.
@@ -785,7 +787,7 @@ Epic 7 User Stories
 . Under this is information about the site and how to shop
 
 * Footer
----------
+
 . User Story: As the site owner, I want to share social media links and contact details.
 
 User Story: As the site owner I want a nav bar for the site extras such as the blog, reviews.

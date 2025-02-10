@@ -11,16 +11,33 @@ html {
     padding: 0 !important;
 }
 
-.mt-5, .my-5 {
+.mt-5,
+.my-5 {
     margin-top: 3rem !important;
 }
+
 body {
-    background-image: url('/media/homepage-background-cropped.jpg');
+    background-image: url('/media/bag.png');
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #421a28c7;
+    color: #071616f3;
     font-family: 'Rubik';
-    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, 0.929);
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 /* spacing container */
@@ -34,16 +51,19 @@ body {
     border-radius: 10px;
 }
 
-.mt-auto, .my-auto {
-    margin-top: 0!important;
+.mt-auto,
+.my-auto {
+    margin-top: 0 !important;
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(131, 155, 13, 0.373);
+    color: rgba(193, 245, 23, 0.373);
     border-color: rgba(255, 255, 255, 0.058);
-    background-color: rgba(146, 163, 33, 0.525);
+    background-color: rgba(30, 198, 170, 0.525);
 }
-
+.navy-bg {
+    background-color: var(navy);
+}
 #topnav {
     line-height: 1.5rem;
 }
@@ -62,6 +82,7 @@ body {
     text-transform: uppercase;
     font-family: 'Alfa Slab One', sans-serif;
 }
+
 .logo {
     margin-left: 20px;
     height: 30px;
@@ -75,12 +96,13 @@ body {
 .main-logo-link {
     width: fit-content;
 }
+
 /* Home Page */
 
-.shanaya{
+.shanaya {
     background-color: rgba(255, 255, 255, 0.148);
     border-radius: 20px;
-    color: rgb(227, 237, 23);
+    color: rgba(226, 237, 23, 0.767);
     text-align: center;
 }
 
@@ -93,6 +115,22 @@ body {
     width: 100%;
 }
 
+/* Newsletter page */
+
+.newsletter-sign-up {
+    text-decoration-color: var(--chem-green);
+}
+
+/* User Review Section */
+
+.rating>input {
+    display: none;
+}
+
+.rating {
+    display: inline-block;
+    border: 0;
+}
 .shop-now-button {
     background: rgb(219, 216, 10);
     color: rgb(16, 186, 199);
@@ -111,12 +149,12 @@ body {
     color: white;
     padding-left: 10px;
     text-decoration: none;
-    
+
 }
 
 /* products page */
 
-.item-img-fluid{
+.item-img-fluid {
     width: 100%;
     height: 28vw;
     object-fit: contain;
@@ -134,14 +172,15 @@ body {
 
 .review-body {
     border-radius: 15px;
-    border:solid 1px black; 
+    border: solid 1px black;
 }
+
 .write-review {
     margin-bottom: 15px;
     border-radius: 15px;
     padding: 15px;
     background-color: white;
-    color: #222;
+    color: #222222d4;
     text-transform: capitalize;
 
 }
@@ -149,7 +188,7 @@ body {
 .write-review-link:hover {
     background-color: rgb(233, 226, 27);
     color: white;
-    
+
     border-radius: 15px;
     padding: 5px;
     text-decoration: none;
@@ -157,8 +196,8 @@ body {
 
 .write-review-link {
     background-color: white;
-    color: black;
-    border:solid 1px rgba(154, 19, 19, 0.334);
+    color: rgba(0, 0, 0, 0.759);
+    border: solid 1px rgba(154, 19, 19, 0.334);
     border-radius: 15px;
     padding: 5px;
 }
@@ -173,7 +212,8 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
+    /* use important to override link colors for <a> elements */
     border: 1px solid black;
     margin-bottom: 15px;
     border-radius: 15px;
@@ -202,11 +242,7 @@ body {
     border-radius: 5px;
 }
 
-.submit-button {
-    background: var(green) !important;
-    color: var(white) !important;
-    border: 1px solid var(white) !important;
-}
+
 
 .text-black {
     color: #000 !important;
@@ -217,10 +253,10 @@ body {
 }
 
 .bg-black {
-    background:#000 !important;
+    background: #000 !important;
 }
 
-a.category-badge > span.badge:hover {
+a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
@@ -249,7 +285,7 @@ a.category-badge > span.badge:hover {
     z-index: -1;
 }
 
-/* toasts */ 
+/* toasts */
 
 .message-container {
     position: fixed;
@@ -269,10 +305,10 @@ toast-capper {
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
@@ -321,14 +357,14 @@ toast-capper {
 /* Mailchimp CSS */
 
 #mc_embed_signup {
-    background:#fff; 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif;  
-    width:600px;
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
 }
 
 .my-mailchimp {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -340,8 +376,10 @@ toast-capper {
 
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    margin-top: 1.5rem;
+    /* mt-4 */
+    color: #6c757d;
+    /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -359,8 +397,8 @@ toast-capper {
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+    /* btn */
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -378,18 +416,19 @@ toast-capper {
     margin-bottom: 15px;
 
     /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
     background-color: #222;
     border-color: #222;
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+    color: #17a2b8;
+    /* text-info */
 }
 
 .container-bottom {
@@ -437,16 +476,16 @@ toast-capper {
 /* adjust mobile header on small mobile */
 
 @media (max-width:991px) {
-    body{
-        height:calc(100vh - 116px);
+    body {
+        height: calc(100vh - 116px);
     }
-    
+
     .display-4.logo-font.text-white {
         font-size: 2rem;
     }
 
-    .nav-link{
-        padding: 0.15rem;   
+    .nav-link {
+        padding: 0.15rem;
     }
 
     .nav-link i.fa-lg {
@@ -469,14 +508,3 @@ toast-capper {
         font-size: .75rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-

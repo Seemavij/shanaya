@@ -46,6 +46,7 @@
     {% endblock %}
 
     <title>Shanaya {% block extra_title %}{% endblock %}</title>
+
 </head>
 
 <body>
@@ -200,6 +201,10 @@
                 <hr class="my-3 d-block d-md-none footer-break">
             </div>
 
+
+
+
+
             <div class="col-12 col-md-3 text-md-start font-awesome">
                 <h6 class="off-white-text mb-3 footer-headings">Get In Touch</h6>
                 <p><i class="fas fa-envelope me-1 green-text"></i>Shanaya_web@order.com</p>
@@ -208,36 +213,45 @@
                 <hr class="my-3 d-block d-md-none footer-break">
             </div>
 
-            <!-- Shanaya Logo -->
-            <div class="col-12 col-md-3 py-3 pe-md-5">
-                <a href="/">
-                    <img class="img-fluid rounded" src="{{ MEDIA_URL }}logo.png" alt="logo-right">
-                </a>
+            <!-- Social links -->
+            <div>
+                <ul class="social-networks">
+                    <li>
+                        <a href="http://facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit out Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit out Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit out Twitter page (opens in a new tab)"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </li>
 
-
-                <!-- Social links -->
-                <div>
-                    <ul class="social-networks">
-                        <li>
-                            <a href="http://facebook.com" target="_blank" rel="noopener"
-                                aria-label="Visit out Facebook page (opens in a new tab)"><i
-                                    class="fa-brands fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://instagram.com" target="_blank" rel="noopener"
-                                aria-label="Visit out Instagram page (opens in a new tab)"><i
-                                    class="fa-brands fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://twitter.com" target="_blank" rel="noopener"
-                                aria-label="Visit out Twitter page (opens in a new tab)"><i
-                                    class="fa-brands fa-twitter"></i></a>
-                        </li>
-
-                    </ul>
-                    <p>&copy; <em id="date"></em> Seema Vij</p>
-                </div>
+                </ul>
+                <p>&copy; <em id="date"></em> Seema Vij</p>
             </div>
+        </div>
+
+
+
+        <!-- Shanaya Logo -->
+        <div class="col-12 col-md-3 py-3 pe-md-5">
+            <a href="/">
+                <img class="img-fluid rounded" src="{{ MEDIA_URL }}logo.png" alt="logo-right">
+            </a>
+
+            <!-- Newsletter sign up -->
+            <hr>
+            <a class="newsletter-sign-up" href="{% url 'newsletter' %}">
+                <h6>To sign up to our newsletter, click here!</h6>
+            </a>
+
+
         </div>
     </footer>
 
