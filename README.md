@@ -578,7 +578,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 ### Content 
 
-- Much of the content for products came from [Shanaya](https://shanaya.ie/). Which I used as my base idea but with the idea of improving as I went.
+- Much of the content for products came from [Shanaya](https://github.com/Seemavij/shanaya). Which I used as my base idea but with the idea of improving as I went.
 - The about us content came directly from [Shanaya](https://www.shanaya.ie/)
 - My hero image and many of the error page illustrations came from [Many Pixels](https://www.manypixels.co/)
 - 

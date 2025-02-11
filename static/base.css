@@ -20,7 +20,7 @@ body {
     background-image: url('/media/bag.png');
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #071616f3;
+    color: #071616;
     font-family: 'Rubik';
     background-color: rgba(211, 211, 211, 0.929);
 }
@@ -117,8 +117,62 @@ body {
 
 /* Newsletter page */
 
-.newsletter-sign-up {
-    text-decoration-color: var(--chem-green);
+/* Style the form element with a border around it */
+.newsletter-sign-up-form {
+    border: 4px solid #f1f1f1;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Add margins to the checkbox */
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+.newsletter-signup-form {
+    margin: 150px 10% 0 0;
+    color: #f0ae12;
+    background-color: rgba(240, 22, 22, 0.781);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #c1af0f;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 /* User Review Section */
