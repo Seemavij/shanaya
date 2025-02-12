@@ -292,7 +292,7 @@ I have taken several steps to help with the sites SEO:
 
 1. Although less useful for B2B products, A Facebook page for Shanaya exists.
 
-![Shanaya Facebook](https://www.facebook.com/)
+Link here:[Shanaya Facebook](https://www.facebook.com/)
 
 Link here: [Shanaya Instagram Page](https://www.instagram.com/)
 
@@ -345,7 +345,6 @@ Below are all the wireframes that I created for this project:
     <summary>Products Page</summary>
 
 ![shanaya](media/product-wireframe.png)
-
 
   </details>
 
