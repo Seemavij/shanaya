@@ -14,7 +14,7 @@ html {
     padding-top: .25rem !important;
 }
 body {
-    background-image: url('/media/bag.png');
+    background-image: url('/media/background-image.png');
     background-size: cover;
     height: calc(100vh - 164px);
     color: black;
